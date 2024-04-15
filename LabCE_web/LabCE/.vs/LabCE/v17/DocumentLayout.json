@@ -1,12 +1,88 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\alber\\OneDrive\\Documentos\\GitHub\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0A14D0AD-3478-4CE1-B930-2E8029E68B62}|LabCE.Server\\LabCE.Server.csproj|c:\\users\\alber\\onedrive\\documentos\\github\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0A14D0AD-3478-4CE1-B930-2E8029E68B62}|LabCE.Server\\LabCE.Server.csproj|solutionrelative:labce.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A14D0AD-3478-4CE1-B930-2E8029E68B62}|LabCE.Server\\LabCE.Server.csproj|c:\\users\\alber\\onedrive\\documentos\\github\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0A14D0AD-3478-4CE1-B930-2E8029E68B62}|LabCE.Server\\LabCE.Server.csproj|solutionrelative:labce.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A14D0AD-3478-4CE1-B930-2E8029E68B62}|LabCE.Server\\LabCE.Server.csproj|c:\\users\\alber\\onedrive\\documentos\\github\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.server\\labce.server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{0A14D0AD-3478-4CE1-B930-2E8029E68B62}|LabCE.Server\\LabCE.Server.csproj|solutionrelative:labce.server\\labce.server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|c:\\users\\alber\\onedrive\\documentos\\github\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.client\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|solutionrelative:labce.client\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LabCE.Server.http",
+              "DocumentMoniker": "C:\\Users\\alber\\OneDrive\\Documentos\\GitHub\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\LabCE.Server\\LabCE.Server.http",
+              "RelativeDocumentMoniker": "LabCE.Server\\LabCE.Server.http",
+              "ToolTip": "C:\\Users\\alber\\OneDrive\\Documentos\\GitHub\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\LabCE.Server\\LabCE.Server.http",
+              "RelativeToolTip": "LabCE.Server\\LabCE.Server.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-04-15T21:26:39.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\alber\\OneDrive\\Documentos\\GitHub\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\LabCE.Server\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "LabCE.Server\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\alber\\OneDrive\\Documentos\\GitHub\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\LabCE.Server\\Properties\\launchSettings.json",
+              "RelativeToolTip": "LabCE.Server\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-15T21:22:06.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\alber\\OneDrive\\Documentos\\GitHub\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\LabCE.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "LabCE.Server\\appsettings.json",
+              "ToolTip": "C:\\Users\\alber\\OneDrive\\Documentos\\GitHub\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\LabCE.Server\\appsettings.json",
+              "RelativeToolTip": "LabCE.Server\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-15T21:22:02.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\alber\\OneDrive\\Documentos\\GitHub\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\index.html",
+              "RelativeDocumentMoniker": "labce.client\\src\\index.html",
+              "ToolTip": "C:\\Users\\alber\\OneDrive\\Documentos\\GitHub\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\index.html",
+              "RelativeToolTip": "labce.client\\src\\index.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-04-15T21:15:38.384Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
