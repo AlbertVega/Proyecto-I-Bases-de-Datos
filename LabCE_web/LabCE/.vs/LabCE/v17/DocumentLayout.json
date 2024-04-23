@@ -38,8 +38,7 @@
               "RelativeToolTip": "LabCE.Server\\LabCE.Server.http",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-04-15T21:26:39.937Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-15T21:26:39.937Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "LabCE.Server\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-15T21:22:02.718Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-15T21:22:02.718Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "labce.client\\src\\index.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-04-15T21:15:38.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-15T21:15:38.384Z"
             }
           ]
         }
