@@ -1,9 +1,10 @@
 <body>
-    <div class="container">
-        <div class="row justify-content-center mt-5">
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-header">
+    <div class="container-fluid vh-100">
+        <div class="row h-100">
+            <!-- Sección de Login -->
+            <div class="col-md-6 d-flex align-items-center justify-content-center">
+                <div class="card w-100">
+                    <div class="card-header text-center">
                         Iniciar sesión
                     </div>
                     <div class="card-body">
@@ -16,10 +17,16 @@
                                 <label for="password" class="form-label">Contraseña</label>
                                 <input type="password" class="form-control" id="password" name="password" required>
                             </div>
-                            <button type="submit" class="btn btn-primary">Ingresar</button>
+                            <div class="d-grid">
+                                <button type="submit" class="btn btn-primary">Ingresar</button>
+                            </div>
                         </form>
                     </div>
                 </div>
+            </div>
+            <!-- Sección de Imagen -->
+            <div class="col-md-6" style="background-image: url('../../assets/login-img.jpg'); background-size: cover; background-position: center center;">
+                <!-- Puedes poner contenido adicional aquí si lo deseas -->
             </div>
         </div>
     </div>
