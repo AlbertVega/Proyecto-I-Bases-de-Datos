@@ -17,3 +17,12 @@ body {
 .right-box {
     padding: 150px 30px 150px 30px;
 }
+
+.btn:hover{
+    transform: scale(1.02);
+}
+
+.btn{
+    transition: all 0.3s ease 0s;
+}
+
