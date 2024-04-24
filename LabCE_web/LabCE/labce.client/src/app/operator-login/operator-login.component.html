@@ -1,33 +1,30 @@
 <body>
-    <div class="container-fluid vh-100">
-        <div class="row h-100">
-            <!-- Sección de Login -->
-            <div class="col-md-6 d-flex align-items-center justify-content-center">
-                <div class="card w-100">
-                    <div class="card-header text-center">
-                        Iniciar sesión
-                    </div>
-                    <div class="card-body">
-                        <form action="/login" method="POST">
-                            <div class="mb-3">
-                                <label for="username" class="form-label">Usuario</label>
-                                <input type="text" class="form-control" id="username" name="username" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="password" class="form-label">Contraseña</label>
-                                <input type="password" class="form-control" id="password" name="password" required>
-                            </div>
-                            <div class="d-grid">
-                                <button type="submit" class="btn btn-primary">Ingresar</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
+    <div class="container d-flex justify-content-center align-items-center min-vh-100">
+        <div class="row border rounded-5 bg-white shadow box-area h-100">
+
+            <div class="col-md-6 left-box" style="background-image: url('../../assets/login-img.jpg'); background-size:cover; background-position: center center;">
             </div>
-            <!-- Sección de Imagen -->
-            <div class="col-md-6" style="background-image: url('../../assets/login-img.jpg'); background-size: cover; background-position: center center;">
-                <!-- Puedes poner contenido adicional aquí si lo deseas -->
+    
+            <div class="col-md-6 right-box">
+                <div class="row align-items-center">
+                    <div class="header-text mb-4">
+                        <p class="fs-1">Bienvenido a LabCE</p>
+                    </div>
+                    <div class="text mb-3" style="text-align: left; padding-left: 15px;">
+                        <p class="fs-5">Inicio de sesión</p>
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control form-control-lg bg-light fs-6" placeholder="Nombre de usuario">
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="password" class="form-control form-control-lg bg-light fs-6" placeholder="Contraseña">
+                    </div>
+                    <div class="input-group mt-4">
+                        <button class="btn btn-lg btn-primary w-100 fs-6">Iniciar sesión</button>
+                    </div>
+                </div>     
             </div>
+
         </div>
     </div>
 </body>
