@@ -4,7 +4,7 @@ import { OperatorLoginComponent } from './operator-login/operator-login.componen
 
 const routes: Routes = [
   
-  {path: 'login', component: OperatorLoginComponent},
+  {path: 'op-login', component: OperatorLoginComponent},
 
 ];
 
