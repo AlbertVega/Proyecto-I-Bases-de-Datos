@@ -1,1 +1,2 @@
 C:\Users\alber\OneDrive\Documentos\GitHub\Proyecto-I-Bases-de-Datos\LabCE_web\LabCE\labce.client\obj\Debug\labce.client.esproj.CoreCompileInputs.cache
+C:\Users\Gustavo A\Desktop\TEC\1er_semestre_2024\Bases\Proyecto\Proyecto-I-Bases-de-Datos\LabCE_web\LabCE\labce.client\obj\Debug\labce.client.esproj.CoreCompileInputs.cache
