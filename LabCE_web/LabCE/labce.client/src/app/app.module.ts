@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { OperatorLoginComponent } from './operator-login/operator-login.component';
 import { OperatorRegisterComponent } from './operator-register/operator-register.component';
+import { ReactiveFormsModule } from '@angular/forms'
 
 @NgModule({
   declarations: [
@@ -15,7 +16,7 @@ import { OperatorRegisterComponent } from './operator-register/operator-register
   ],
   imports: [
     BrowserModule, HttpClientModule,
-    AppRoutingModule,
+    AppRoutingModule, ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent, OperatorLoginComponent]
