@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.LabCE" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/grey_special</item>
+        <item name="colorPrimaryDark">@color/blue_special</item>
+        <item name="colorAccent">@color/red_special</item>
+    </style>
+
+    <style name="Theme.LabCE" parent="Base.Theme.LabCE" />
+
+    <style name="Theme.LabCE.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.LabCE.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.LabCE.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

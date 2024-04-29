@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">LabCE</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="inicio_de_sesion">Inicio de Sesion</string>
+    <string name="correc_electronico">Correc electronico</string>
+    <string name="password">Contraseña</string>
+    <string name="cedula">Cedula</string>
+    <string name="iniciar_sesion">Iniciar sesion</string>
+    <string name="cambio_de_pwd">Cambio de contraseña</string>
+    <string name="title_activity_principal">PrincipalActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Laboratorios</string>
+    <string name="menu_gallery">Solicitudes de prestamo</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="fecha_init">Fecha inicio:</string>
+    <string name="aprobar">Aprobar</string>
+    <string name="rechazar">Rechazar</string>
+</resources>
