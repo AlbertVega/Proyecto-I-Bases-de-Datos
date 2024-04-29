@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms'
+import { AbstractControl, FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms'
 import { HttpClient } from '@angular/common/http';
 import ValidateForm from '../helpers/validateForms';
+import { StrongPasswordRegx } from '../helpers/PWRegEx';
 
 interface Operador {
   primerNombre: string;
@@ -33,7 +34,7 @@ export class OperatorRegisterComponent implements OnInit{
       pNombre: ['',Validators.required],
       apellidos: ['',Validators.required],
       email: ['',Validators.required],
-      password: ['',Validators.required],
+      password: ['',Validators.required,Validators.pattern(StrongPasswordRegx)],
       cedula: ['',Validators.required],
       carnet: ['',Validators.required],
       nacimiento: ['', Validators.required]
@@ -46,5 +47,9 @@ export class OperatorRegisterComponent implements OnInit{
     } else {
       ValidateForm.validateAllFormFields(this.formulario)
     }    
+  }
+
+  get passwordFormField() {
+    return this.formulario.get('password');
   }
 }

@@ -1,6 +1,6 @@
 <body>
   <div class="container d-flex justify-content-center align-items-center min-vh-100">
-    <div class="row box-area bg-white shadow h-100">
+    <div class="row box-area bg-white shadow ">
 
       <div class="col-md-5 left-box" style="background-image: url('../../assets/login-img.jpg'); background-size:cover; background-position:0% ;">
       </div>
@@ -12,51 +12,67 @@
           </div>
 
           <form class="needs-validation" [formGroup]="formulario">
-            <div class="form-group row pt-2">
+            <div class="form-group row">
               <label for="Nombre" class="col-sm-3 col-form-label">Nombre</label>
-              <div class="col-sm-4">
-                <input formControlName="pNombre" type="text" class="form-control" id="primerNombre" placeholder="Primer Nombre">
-                <small *ngIf="formulario.controls['pNombre'].dirty && formulario.hasError('required', 'pNombre')" class="text-danger">Este campo es requerido</small>                
+              <div class="col-sm-4 pb-3">
+                <input formControlName="pNombre" type="text" class="form-control" id="primerNombre" placeholder="Primer Nombre" autocomplete="off">
+                <small *ngIf="formulario.controls['pNombre'].dirty && formulario.hasError('required', 'pNombre')" class="text-danger">Campo requerido</small>                
               </div>
-              <div class="col-sm-5">
-                <input formControlName="apellidos" type="text" class="form-control" id="apellidos" placeholder="Apellidos">
-                <small *ngIf="formulario.controls['apellidos'].dirty && formulario.hasError('required', 'apellidos')" class="text-danger">Este campo es requerido</small>
+              <div class="col-sm-5 pb-3">
+                <input formControlName="apellidos" type="text" class="form-control" id="apellidos" placeholder="Apellidos" autocomplete="off">
+                <small *ngIf="formulario.controls['apellidos'].dirty && formulario.hasError('required', 'apellidos')" class="text-danger">Campo requerido</small>
               </div>
             </div>
-            <div class="form-group row pt-2">
+            <div class="form-group row pb-3">
               <label for="correoEstudiantec" class="col-sm-3 col-form-label">Correo</label>
               <div class="col-sm-9">
-                <input formControlName="email" type="email" class="form-control" id="correoEstudiantec" placeholder="ejemplo@estudiantec.cr">
-                <small *ngIf="formulario.controls['email'].dirty && formulario.hasError('required', 'email')" class="text-danger">Este campo es requerido</small>
+                <input formControlName="email" type="email" class="form-control" id="correoEstudiantec" placeholder="ejemplo@estudiantec.cr" autocomplete="off">
+                <small *ngIf="formulario.controls['email'].dirty && formulario.hasError('required', 'email')" class="text-danger">Campo requerido</small>
               </div>
             </div>
-            <div class="form-group row pt-2">
+            <div class="form-group row">
               <label for="contraseña" class="col-sm-3 col-form-label">Contraseña</label>
-              <div class="col-sm-9">
-                <input formControlName="password" type="password" class="form-control" id="contraseña" placeholder="Contraseña">
-                <small *ngIf="formulario.controls['password'].dirty && formulario.hasError('required', 'password')" class="text-danger">Este campo es requerido</small>
+              <div class="col-sm-9 pb-3" style="text-align: left">
+                <input formControlName="password" type="password" class="form-control" id="contraseña" aria-describedby="passwordHelp" placeholder="Contraseña" autocomplete="off">
+                <div class="passwordHelp text-muted" *ngIf="passwordFormField?.dirty">
+                  <span class="block" [ngClass]="{'text-primary': passwordFormField?.value?.match('^(?=.*[A-Z])')}">
+                    Debe contener al menos 1 letra mayúscula.
+                  </span> <br />
+                  <span class="block" [ngClass]="{'text-primary': passwordFormField?.value?.match('(?=.*[a-z])')}">
+                    Debe contener al menos 1 letra minúscula.
+                  </span><br />
+                  <span class="block" [ngClass]="{'text-primary': passwordFormField?.value?.match('(.*[0-9].*)')}">
+                    Debe contener al menos 1 número.
+                  </span><br />
+                  <span class="block" [ngClass]="{'text-primary': passwordFormField?.value?.match('(?=.*[!@#$%^&*])')}">
+                    Debe contener al menos 1 caracter especial.
+                  </span><br />
+                  <span class="block" [ngClass]="{'text-primary': passwordFormField?.value?.match('.{8,}')}">
+                    Debe ser al contener al menos 8 caracteres.
+                  </span>
+                </div>
               </div>
             </div>
-            <div class="form-group row pt-2">
+            <div class="form-group row">
               <label for="cedula" class="col-sm-3 col-form-label">Cédula</label>
-              <div class="col-sm-6">
-                <input formControlName="cedula" type="text" class="form-control" id="cedula" placeholder="10101010">
-                <small *ngIf="formulario.controls['cedula'].dirty && formulario.hasError('required', 'cedula')" class="text-danger">Este campo es requerido</small>
+              <div class="col-sm-6 pb-3">
+                <input formControlName="cedula" type="text" class="form-control" id="cedula" placeholder="10101010" autocomplete="off">
+                <small *ngIf="formulario.controls['cedula'].dirty && formulario.hasError('required', 'cedula')" class="text-danger">Campo requerido</small>
               </div>
             </div>
-            <div class="form-group row pt-2">
+            <div class="form-group row">
               <label for="carnet" class="col-sm-3 col-form-label">Carnet</label>
-              <div class="col-sm-6">
-                <input formControlName="carnet" type="text" class="form-control" id="Carnet" placeholder="2024101010">
-                <small *ngIf="formulario.controls['carnet'].dirty && formulario.hasError('required', 'carnet')" class="text-danger">Este campo es requerido</small>
+              <div class="col-sm-6 pb-3">
+                <input formControlName="carnet" type="text" class="form-control" id="Carnet" placeholder="2024101010" autocomplete="off">
+                <small *ngIf="formulario.controls['carnet'].dirty && formulario.hasError('required', 'carnet')" class="text-danger">Campo requerido</small>
               </div>
             </div>
 
-            <div class="form-group row pt-2">
+            <div class="form-group row">
               <label for="fecha" class="col-sm-3 col-form-label pt-0">Fecha de Nacimiento</label>
-              <div class="col-sm-6">
-                <input formControlName="nacimiento" type="text" class="form-control" id="nacimiento" placeholder="DD/MM/AAAA">
-                <small *ngIf="formulario.controls['nacimiento'].dirty && formulario.hasError('required', 'nacimiento')" class="text-danger">Este campo es requerido</small>
+              <div class="col-sm-6 pb-3">
+                <input formControlName="nacimiento" type="text" class="form-control" id="nacimiento" placeholder="DD/MM/AAAA" autocomplete="off">
+                <small *ngIf="formulario.controls['nacimiento'].dirty && formulario.hasError('required', 'nacimiento')" class="text-danger">Campo requerido</small>
               </div>
             </div>
             <button (click)="onRegister()" type="submit" class="btn btn-primary">Registrar</button>
