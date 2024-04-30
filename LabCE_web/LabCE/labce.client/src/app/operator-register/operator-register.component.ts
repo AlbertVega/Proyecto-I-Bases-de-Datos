@@ -1,18 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { AbstractControl, FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms'
-import { HttpClient } from '@angular/common/http';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms'
 import ValidateForm from '../helpers/validateForms';
 import { StrongPasswordRegx } from '../helpers/PWRegEx';
+import { Registro } from '../Interfaces/registro';
+import { ServicioOperadorService } from '../Services/servicio-operador.service';
 
-interface Operador {
-  primerNombre: string;
-  apellidos: string;
-  email: string;
-  password: string;
-  cedula: number;
-  carnet: number;
-  nacimiento: string;
-}
 
 @Component({
   selector: 'app-operator-register',
@@ -25,7 +17,7 @@ export class OperatorRegisterComponent implements OnInit{
   formulario!: FormGroup;
 
   constructor(  
-    private http: HttpClient,
+    private _operadorServicio: ServicioOperadorService,
     private fb: FormBuilder
   ) { }
 
@@ -34,7 +26,7 @@ export class OperatorRegisterComponent implements OnInit{
       pNombre: ['',Validators.required],
       apellidos: ['',Validators.required],
       email: ['',Validators.required],
-      password: ['',Validators.required,Validators.pattern(StrongPasswordRegx)],
+      password: ['', [Validators.required,Validators.pattern(StrongPasswordRegx)]],
       cedula: ['',Validators.required],
       carnet: ['',Validators.required],
       nacimiento: ['', Validators.required]
@@ -43,7 +35,25 @@ export class OperatorRegisterComponent implements OnInit{
 
   onRegister() {
     if (this.formulario.valid) {
-      //Enviar datos
+      const request: Registro = {
+        pNombre: this.formulario.value.pNombre,
+        apellidos: this.formulario.value.apellidos,
+        email: this.formulario.value.email,
+        password: this.formulario.value.password,
+        cedula: this.formulario.value.cedula,
+        carnet: this.formulario.value.carnet,
+        nacimiento: this.formulario.value.nacimiento
+      }
+
+      this._operadorServicio.register(request).subscribe({
+        next: (data) => {
+          if (data.status) {
+            console.log(data.value);
+          } else {
+            console.log("Error");
+          }
+        }
+      })
     } else {
       ValidateForm.validateAllFormFields(this.formulario)
     }    
