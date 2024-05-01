@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { OperatorRegisterComponent } from './operator-register/operator-register.component';
+import { OperatorRegisterComponent } from './components/operator-register/operator-register.component';
 import { ReactiveFormsModule } from '@angular/forms'
 import { OperatorLoginComponent } from './components/operator-login/operator-login.component';
 import { OperatorViewComponent } from './components/operator-view/operator-view.component';

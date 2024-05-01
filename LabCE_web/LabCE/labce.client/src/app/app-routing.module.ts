@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { OperatorRegisterComponent } from './operator-register/operator-register.component';
+import { OperatorRegisterComponent } from './components/operator-register/operator-register.component';
 import { OperatorLoginComponent } from './components/operator-login/operator-login.component';
 import { OperatorViewComponent } from './components/operator-view/operator-view.component';
 import { PrestamoActivoComponent } from './components/operator-view/prestamo-activo/prestamo-activo.component';

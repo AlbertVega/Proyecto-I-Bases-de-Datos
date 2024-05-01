@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms'
-import ValidateForm from '../helpers/validateForms';
-import { StrongPasswordRegx } from '../helpers/PWRegEx';
-import { Registro } from '../Interfaces/registro';
-import { ServicioOperadorService } from '../Services/servicio-operador.service';
+import ValidateForm from '../../helpers/validateForms';
+import { StrongPasswordRegx } from '../../helpers/PWRegEx';
+import { Registro } from '../../Interfaces/registro';
+import { ServicioOperadorService } from '../../Services/servicio-operador.service';
 
 
 @Component({

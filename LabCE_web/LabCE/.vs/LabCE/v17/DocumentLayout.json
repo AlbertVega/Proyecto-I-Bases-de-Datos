@@ -1,18 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\",
+  "WorkspaceRootPath": "C:\\Users\\alber\\OneDrive\\Documentos\\GitHub\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0A14D0AD-3478-4CE1-B930-2E8029E68B62}|LabCE.Server\\LabCE.Server.csproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\proyecto\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.server\\controllers\\opregistercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|c:\\users\\alber\\onedrive\\documentos\\github\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.client\\src\\main.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|solutionrelative:labce.client\\src\\main.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|c:\\users\\alber\\onedrive\\documentos\\github\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.client\\src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|solutionrelative:labce.client\\src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|c:\\users\\alber\\onedrive\\documentos\\github\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.client\\src\\app\\components\\operator-register\\operator-register.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|solutionrelative:labce.client\\src\\app\\components\\operator-register\\operator-register.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A14D0AD-3478-4CE1-B930-2E8029E68B62}|LabCE.Server\\LabCE.Server.csproj|c:\\users\\alber\\onedrive\\documentos\\github\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.server\\controllers\\opregistercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A14D0AD-3478-4CE1-B930-2E8029E68B62}|LabCE.Server\\LabCE.Server.csproj|solutionrelative:labce.server\\controllers\\opregistercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\proyecto\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.client\\src\\app\\operator-register\\operator-register.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|solutionrelative:labce.client\\src\\app\\operator-register\\operator-register.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|c:\\users\\alber\\onedrive\\documentos\\github\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.client\\src\\app\\components\\operator-register\\operator-register.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|solutionrelative:labce.client\\src\\app\\components\\operator-register\\operator-register.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\proyecto\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.client\\src\\app\\operator-register\\operator-register.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|solutionrelative:labce.client\\src\\app\\operator-register\\operator-register.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|c:\\users\\alber\\onedrive\\documentos\\github\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.client\\src\\app\\components\\operator-register\\operator-register.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|solutionrelative:labce.client\\src\\app\\components\\operator-register\\operator-register.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,10 +39,49 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "main.ts",
+              "DocumentMoniker": "C:\\Users\\alber\\OneDrive\\Documentos\\GitHub\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\main.ts",
+              "RelativeDocumentMoniker": "labce.client\\src\\main.ts",
+              "ToolTip": "C:\\Users\\alber\\OneDrive\\Documentos\\GitHub\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\main.ts",
+              "RelativeToolTip": "labce.client\\src\\main.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAcAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|",
+              "WhenOpened": "2024-05-01T02:44:42.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "operator-register.component.css",
+              "DocumentMoniker": "C:\\Users\\alber\\OneDrive\\Documentos\\GitHub\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\components\\operator-register\\operator-register.component.css",
+              "RelativeDocumentMoniker": "labce.client\\src\\app\\components\\operator-register\\operator-register.component.css",
+              "ToolTip": "C:\\Users\\alber\\OneDrive\\Documentos\\GitHub\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\components\\operator-register\\operator-register.component.css",
+              "RelativeToolTip": "labce.client\\src\\app\\components\\operator-register\\operator-register.component.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-01T02:42:31.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "app-routing.module.ts",
+              "DocumentMoniker": "C:\\Users\\alber\\OneDrive\\Documentos\\GitHub\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\app-routing.module.ts",
+              "RelativeDocumentMoniker": "labce.client\\src\\app\\app-routing.module.ts",
+              "ToolTip": "C:\\Users\\alber\\OneDrive\\Documentos\\GitHub\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\app-routing.module.ts",
+              "RelativeToolTip": "labce.client\\src\\app\\app-routing.module.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAADAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|",
+              "WhenOpened": "2024-05-01T02:40:09.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "OpRegisterController.cs",
-              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\LabCE.Server\\Controllers\\OpRegisterController.cs",
+              "DocumentMoniker": "C:\\Users\\alber\\OneDrive\\Documentos\\GitHub\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\LabCE.Server\\Controllers\\OpRegisterController.cs",
               "RelativeDocumentMoniker": "LabCE.Server\\Controllers\\OpRegisterController.cs",
-              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\LabCE.Server\\Controllers\\OpRegisterController.cs",
+              "ToolTip": "C:\\Users\\alber\\OneDrive\\Documentos\\GitHub\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\LabCE.Server\\Controllers\\OpRegisterController.cs",
               "RelativeToolTip": "LabCE.Server\\Controllers\\OpRegisterController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -39,27 +90,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "operator-register.component.html",
-              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\operator-register\\operator-register.component.html",
-              "RelativeDocumentMoniker": "labce.client\\src\\app\\operator-register\\operator-register.component.html",
-              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\operator-register\\operator-register.component.html",
-              "RelativeToolTip": "labce.client\\src\\app\\operator-register\\operator-register.component.html",
+              "DocumentMoniker": "C:\\Users\\alber\\OneDrive\\Documentos\\GitHub\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\components\\operator-register\\operator-register.component.html",
+              "RelativeDocumentMoniker": "labce.client\\src\\app\\components\\operator-register\\operator-register.component.html",
+              "ToolTip": "C:\\Users\\alber\\OneDrive\\Documentos\\GitHub\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\components\\operator-register\\operator-register.component.html",
+              "RelativeToolTip": "labce.client\\src\\app\\components\\operator-register\\operator-register.component.html",
               "ViewState": "AQIAAC0AAAAAAAAAAAAAAEUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-04-30T05:03:57.379Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-30T05:03:57.379Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "operator-register.component.ts",
-              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\operator-register\\operator-register.component.ts",
-              "RelativeDocumentMoniker": "labce.client\\src\\app\\operator-register\\operator-register.component.ts",
-              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\operator-register\\operator-register.component.ts",
-              "RelativeToolTip": "labce.client\\src\\app\\operator-register\\operator-register.component.ts",
+              "DocumentMoniker": "C:\\Users\\alber\\OneDrive\\Documentos\\GitHub\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\components\\operator-register\\operator-register.component.ts",
+              "RelativeDocumentMoniker": "labce.client\\src\\app\\components\\operator-register\\operator-register.component.ts",
+              "ToolTip": "C:\\Users\\alber\\OneDrive\\Documentos\\GitHub\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\components\\operator-register\\operator-register.component.ts",
+              "RelativeToolTip": "labce.client\\src\\app\\components\\operator-register\\operator-register.component.ts",
               "ViewState": "AQIAAB8AAAAAAAAAAAAgwDIAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|",
               "WhenOpened": "2024-04-30T04:51:51.742Z",
               "EditorCaption": ""
             }
