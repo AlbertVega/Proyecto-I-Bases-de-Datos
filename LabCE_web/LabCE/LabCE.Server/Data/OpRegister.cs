@@ -26,7 +26,7 @@ namespace LabCE.Server.Data
                 operador.aprobado = op.aprobado;
                 operador.email = op.email;
                 operador.cedula = op.cedula;
-                operador.nacimiento = op.nacimiento;
+                operador.fecha_nacimiento = op.nacimiento;
                 operador.op_password = pw;
 
                 _dbContext.OPERADOR.Add(operador);

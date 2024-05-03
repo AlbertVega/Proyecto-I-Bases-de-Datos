@@ -12,6 +12,6 @@ namespace LabCE.Server.Models
         public string email { get; set; }
         public byte[] op_password { get; set; }
         public int cedula { get; set; }
-        public  DateTime nacimiento { get; set; }
+        public  DateTime fecha_nacimiento { get; set; }
     }
 }

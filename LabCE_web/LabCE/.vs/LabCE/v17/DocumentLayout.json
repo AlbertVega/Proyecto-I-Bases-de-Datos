@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0A14D0AD-3478-4CE1-B930-2E8029E68B62}|LabCE.Server\\LabCE.Server.csproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\proyecto\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0A14D0AD-3478-4CE1-B930-2E8029E68B62}|LabCE.Server\\LabCE.Server.csproj|solutionrelative:labce.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0A14D0AD-3478-4CE1-B930-2E8029E68B62}|LabCE.Server\\LabCE.Server.csproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\proyecto\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.server\\data\\opregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A14D0AD-3478-4CE1-B930-2E8029E68B62}|LabCE.Server\\LabCE.Server.csproj|solutionrelative:labce.server\\data\\opregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0A14D0AD-3478-4CE1-B930-2E8029E68B62}|LabCE.Server\\LabCE.Server.csproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\proyecto\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.server\\models\\operador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A14D0AD-3478-4CE1-B930-2E8029E68B62}|LabCE.Server\\LabCE.Server.csproj|solutionrelative:labce.server\\models\\operador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0A14D0AD-3478-4CE1-B930-2E8029E68B62}|LabCE.Server\\LabCE.Server.csproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\proyecto\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.server\\models\\labce_db_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A14D0AD-3478-4CE1-B930-2E8029E68B62}|LabCE.Server\\LabCE.Server.csproj|solutionrelative:labce.server\\models\\labce_db_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A14D0AD-3478-4CE1-B930-2E8029E68B62}|LabCE.Server\\LabCE.Server.csproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\proyecto\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0A14D0AD-3478-4CE1-B930-2E8029E68B62}|LabCE.Server\\LabCE.Server.csproj|solutionrelative:labce.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,19 +26,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 217,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\LabCE.Server\\appsettings.json",
               "RelativeDocumentMoniker": "LabCE.Server\\appsettings.json",
               "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\LabCE.Server\\appsettings.json",
               "RelativeToolTip": "LabCE.Server\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABkAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAACAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-03T04:29:55.22Z",
+              "WhenOpened": "2024-05-03T05:22:26.324Z",
               "EditorCaption": ""
             },
             {
@@ -45,21 +49,36 @@
               "RelativeDocumentMoniker": "LabCE.Server\\Models\\LabCE_DB_Context.cs",
               "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\LabCE.Server\\Models\\LabCE_DB_Context.cs",
               "RelativeToolTip": "LabCE.Server\\Models\\LabCE_DB_Context.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA2AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T03:52:09.147Z"
+              "WhenOpened": "2024-05-03T05:08:12.475Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "OpRegister.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\LabCE.Server\\Data\\OpRegister.cs",
               "RelativeDocumentMoniker": "LabCE.Server\\Data\\OpRegister.cs",
               "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\LabCE.Server\\Data\\OpRegister.cs",
               "RelativeToolTip": "LabCE.Server\\Data\\OpRegister.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCAAAAA0AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T03:09:29.106Z"
+              "WhenOpened": "2024-05-03T04:54:16.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OPERADOR.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\LabCE.Server\\Models\\OPERADOR.cs",
+              "RelativeDocumentMoniker": "LabCE.Server\\Models\\OPERADOR.cs",
+              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\LabCE.Server\\Models\\OPERADOR.cs",
+              "RelativeToolTip": "LabCE.Server\\Models\\OPERADOR.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T04:50:50.577Z",
+              "EditorCaption": ""
             }
           ]
         }
