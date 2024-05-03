@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms'
+import { AbstractControl, FormBuilder, FormGroup, Validators } from '@angular/forms'
 import ValidateForm from '../../helpers/validateForms';
 import { StrongPasswordRegx } from '../../helpers/PWRegEx';
 import { Registro } from '../../Interfaces/registro';
@@ -25,7 +25,7 @@ export class OperatorRegisterComponent implements OnInit{
     this.formulario = this.fb.group({
       pNombre: ['',Validators.required],
       apellidos: ['',Validators.required],
-      email: ['',Validators.required],
+      email: ['',[Validators.required, this.emailValidation]],
       password: ['', [Validators.required,Validators.pattern(StrongPasswordRegx)]],
       cedula: ['',Validators.required],
       carnet: ['',Validators.required],
@@ -65,5 +65,23 @@ export class OperatorRegisterComponent implements OnInit{
 
   get passwordFormField() {
     return this.formulario.get('password');
+  }
+
+  getError(control: any): string {
+    if (control.errors?.required && control.touched)
+      return "Campo requerido";
+    else if (control.errors?.emailError && control.touched)
+      return 'Formato incorrecto';
+    else return '';
+  }
+
+  emailValidation(control: AbstractControl) {
+    const pattern = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,20}$/;
+    const value = control.value;
+    if (!pattern.test(value) && control.touched) {
+      return {
+        emailError: true
+      }
+    } else return null;
   }
 }

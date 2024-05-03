@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "JFEtu4tmTfbE63trlUMBCqONg+wrfIzzCj2ZetF5qPI=",
+  "Hash": "u+zB0fnvfNHISYo/S9rAtN4zr/+kBILpWnZm5U8gO6Q=",
   "Source": "LabCE.Server",
   "BasePath": "_content/LabCE.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\labce.client.esproj",
+      "Identity": "C:\\Users\\galva\\OneDrive\\Escritorio\\TEC\\1er semestre 2024\\Bases\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\labce.client.esproj",
       "Version": 2,
       "Source": "labce.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",

@@ -1,22 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\",
+  "WorkspaceRootPath": "C:\\Users\\galva\\OneDrive\\Escritorio\\TEC\\1er semestre 2024\\Bases\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0A14D0AD-3478-4CE1-B930-2E8029E68B62}|LabCE.Server\\LabCE.Server.csproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\proyecto\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.server\\data\\opregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A14D0AD-3478-4CE1-B930-2E8029E68B62}|LabCE.Server\\LabCE.Server.csproj|solutionrelative:labce.server\\data\\opregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|c:\\users\\galva\\onedrive\\escritorio\\tec\\1er semestre 2024\\bases\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.client\\src\\app\\components\\operator-register\\operator-register.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|solutionrelative:labce.client\\src\\app\\components\\operator-register\\operator-register.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A14D0AD-3478-4CE1-B930-2E8029E68B62}|LabCE.Server\\LabCE.Server.csproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\proyecto\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.server\\models\\operador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A14D0AD-3478-4CE1-B930-2E8029E68B62}|LabCE.Server\\LabCE.Server.csproj|solutionrelative:labce.server\\models\\operador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A14D0AD-3478-4CE1-B930-2E8029E68B62}|LabCE.Server\\LabCE.Server.csproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\proyecto\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.server\\models\\labce_db_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A14D0AD-3478-4CE1-B930-2E8029E68B62}|LabCE.Server\\LabCE.Server.csproj|solutionrelative:labce.server\\models\\labce_db_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A14D0AD-3478-4CE1-B930-2E8029E68B62}|LabCE.Server\\LabCE.Server.csproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\proyecto\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0A14D0AD-3478-4CE1-B930-2E8029E68B62}|LabCE.Server\\LabCE.Server.csproj|solutionrelative:labce.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|c:\\users\\galva\\onedrive\\escritorio\\tec\\1er semestre 2024\\bases\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.client\\src\\app\\components\\operator-register\\operator-register.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|solutionrelative:labce.client\\src\\app\\components\\operator-register\\operator-register.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +18,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 217,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\LabCE.Server\\appsettings.json",
-              "RelativeDocumentMoniker": "LabCE.Server\\appsettings.json",
-              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\LabCE.Server\\appsettings.json",
-              "RelativeToolTip": "LabCE.Server\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAACAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-03T05:22:26.324Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LabCE_DB_Context.cs",
-              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\LabCE.Server\\Models\\LabCE_DB_Context.cs",
-              "RelativeDocumentMoniker": "LabCE.Server\\Models\\LabCE_DB_Context.cs",
-              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\LabCE.Server\\Models\\LabCE_DB_Context.cs",
-              "RelativeToolTip": "LabCE.Server\\Models\\LabCE_DB_Context.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T05:08:12.475Z",
-              "EditorCaption": ""
+              "DocumentIndex": 1,
+              "Title": "operator-register.component.html",
+              "DocumentMoniker": "C:\\Users\\galva\\OneDrive\\Escritorio\\TEC\\1er semestre 2024\\Bases\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\components\\operator-register\\operator-register.component.html",
+              "RelativeDocumentMoniker": "labce.client\\src\\app\\components\\operator-register\\operator-register.component.html",
+              "ToolTip": "C:\\Users\\galva\\OneDrive\\Escritorio\\TEC\\1er semestre 2024\\Bases\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\components\\operator-register\\operator-register.component.html",
+              "RelativeToolTip": "labce.client\\src\\app\\components\\operator-register\\operator-register.component.html",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB8AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-03T20:50:56.266Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OpRegister.cs",
-              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\LabCE.Server\\Data\\OpRegister.cs",
-              "RelativeDocumentMoniker": "LabCE.Server\\Data\\OpRegister.cs",
-              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\LabCE.Server\\Data\\OpRegister.cs",
-              "RelativeToolTip": "LabCE.Server\\Data\\OpRegister.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T04:54:16.559Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OPERADOR.cs",
-              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\LabCE.Server\\Models\\OPERADOR.cs",
-              "RelativeDocumentMoniker": "LabCE.Server\\Models\\OPERADOR.cs",
-              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\LabCE.Server\\Models\\OPERADOR.cs",
-              "RelativeToolTip": "LabCE.Server\\Models\\OPERADOR.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T04:50:50.577Z",
+              "Title": "operator-register.component.ts",
+              "DocumentMoniker": "C:\\Users\\galva\\OneDrive\\Escritorio\\TEC\\1er semestre 2024\\Bases\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\components\\operator-register\\operator-register.component.ts",
+              "RelativeDocumentMoniker": "labce.client\\src\\app\\components\\operator-register\\operator-register.component.ts",
+              "ToolTip": "C:\\Users\\galva\\OneDrive\\Escritorio\\TEC\\1er semestre 2024\\Bases\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\components\\operator-register\\operator-register.component.ts",
+              "RelativeToolTip": "labce.client\\src\\app\\components\\operator-register\\operator-register.component.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE8AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-03T21:07:40.505Z",
               "EditorCaption": ""
             }
           ]
