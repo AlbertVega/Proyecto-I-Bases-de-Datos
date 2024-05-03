@@ -7,13 +7,17 @@ import { AppComponent } from './app.component';
 import { OperatorLoginComponent } from './operator-login/operator-login.component';
 import { ProfessorLoginComponent } from './professor-login/professor-login.component';
 import { ProfessorViewComponent } from './professor-view/professor-view.component';
+import { BodyComponent } from './professor-view/body/body.component';
+import { SidenavComponent } from './professor-view/sidenav/sidenav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     OperatorLoginComponent,
     ProfessorLoginComponent,
-    ProfessorViewComponent
+    ProfessorViewComponent,
+    SidenavComponent,
+    BodyComponent
   ],
   imports: [
     BrowserModule, HttpClientModule,
