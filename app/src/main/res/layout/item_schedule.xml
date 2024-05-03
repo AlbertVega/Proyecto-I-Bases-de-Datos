@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <TableRow
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/table_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10sp"
+        android:layout_weight="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent">
+
+
+
+
+        <Button
+            android:id="@+id/id_lunes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:baselineAligned="false"
+            tools:text="L"
+            android:backgroundTint="@color/white_special"
+            android:textColor="@color/black_special"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/id_martes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white_special"
+            android:textColor="@color/black_special"
+            android:baselineAligned="false"
+            tools:text="K"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/id_miercoles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white_special"
+            android:textColor="@color/black_special"
+            android:baselineAligned="false"
+            tools:text="M"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/id_jueves"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:backgroundTint="@color/white_special"
+            android:textColor="@color/black_special"
+            android:layout_weight="1"
+            android:baselineAligned="false"
+            tools:text="J"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/id_viernes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white_special"
+            android:textColor="@color/black_special"
+            android:baselineAligned="false"
+            tools:text="V"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </TableRow>

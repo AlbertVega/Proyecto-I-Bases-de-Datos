@@ -1,7 +1,9 @@
 package com.example.labce.ui.request
 
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
+import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.labce.R
 
@@ -14,7 +16,9 @@ class RequestAdapter (private val requestList:List<RequestRegister>): RecyclerVi
 
     override fun onBindViewHolder(holder: RequestViewHolder, position: Int) {
         val item = requestList[position]
-        holder.render(item)
 
+        holder.render(item,this)
     }
+
+
 }

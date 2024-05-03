@@ -21,4 +21,16 @@
     <string name="fecha_init">Fecha inicio:</string>
     <string name="aprobar">Aprobar</string>
     <string name="rechazar">Rechazar</string>
+    <string name="reservar">Reservar</string>
+    <string name="laboratorio_06">Laboratorio 06</string>
+    <string name="f2_08">F2-08</string>
+    <string name="f2_05">F2-05</string>
+    <string name="f2_06">F2-06</string>
+    <string name="f2_07">F2-07</string>
+    <string name="hora">Hora</string>
+    <string name="lunes">Lunes</string>
+    <string name="viernes">Viernes</string>
+    <string name="jueves">Jueves</string>
+    <string name="miercoles">Miercoles</string>
+    <string name="martes">Martes</string>
 </resources>

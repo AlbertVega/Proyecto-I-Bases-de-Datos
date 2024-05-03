@@ -3,7 +3,7 @@ package com.example.labce.ui.request
 
 class RequestProvider {
     companion object{
-        val requestList = listOf<RequestRegister>(
+        val requestList = mutableListOf<RequestRegister>(
 
             //APROVE: 0 = RECHAZADO, 1 = APROBADO, 2 = PENDIENTE
             RequestRegister(
@@ -42,5 +42,7 @@ class RequestProvider {
                 2,
             ),
         )
+
+        var pendingRequest = requestList.filter { it.aprove == 2 }
     }
 }
