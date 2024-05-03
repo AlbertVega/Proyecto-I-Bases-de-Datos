@@ -35,14 +35,18 @@ export class OperatorRegisterComponent implements OnInit{
 
   onRegister() {
     if (this.formulario.valid) {
+      let Apellidos: string[] = this.formulario.value.apellidos.split(' ');
+
       const request: Registro = {
-        pNombre: this.formulario.value.pNombre,
-        apellidos: this.formulario.value.apellidos,
+        nombre: this.formulario.value.pNombre,
+        apellido1: Apellidos[0],
+        apellido2: Apellidos[1],
         email: this.formulario.value.email,
-        password: this.formulario.value.password,
+        op_password: this.formulario.value.password,
         cedula: this.formulario.value.cedula,
         carnet: this.formulario.value.carnet,
-        nacimiento: this.formulario.value.nacimiento
+        nacimiento: new Date(this.formulario.value.nacimiento),
+        aprobado: false
       }
 
       this._operadorServicio.register(request).subscribe({

@@ -71,7 +71,7 @@
             <div class="form-group row">
               <label for="fecha" class="col-sm-3 col-form-label pt-0">Fecha de Nacimiento</label>
               <div class="col-sm-6 pb-3">
-                <input formControlName="nacimiento" type="text" class="form-control" id="nacimiento" placeholder="DD/MM/AAAA" autocomplete="off">
+                <input formControlName="nacimiento" type="text" class="form-control" id="nacimiento" placeholder="DD-MM-AAAA" autocomplete="off">
                 <small *ngIf="formulario.controls['nacimiento'].dirty && formulario.hasError('required', 'nacimiento')" class="text-danger">Campo requerido</small>
               </div>
             </div>

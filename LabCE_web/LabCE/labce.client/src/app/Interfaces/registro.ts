@@ -1,9 +1,11 @@
 export interface Registro {
-  pNombre: string;
-  apellidos: string;
+  nombre: string;
+  apellido1: string;
+  apellido2: string;
   email: string;
-  password: string;
+  op_password: string;
   cedula: number;
   carnet: number;
-  nacimiento: string;
+  nacimiento: Date;
+  aprobado: boolean;
 }
