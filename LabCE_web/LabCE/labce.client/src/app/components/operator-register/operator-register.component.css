@@ -25,6 +25,7 @@
 }
 
 body {
+  height: 880px;
   padding: 0;
   margin: 0;
   font-family: 'Poppins';

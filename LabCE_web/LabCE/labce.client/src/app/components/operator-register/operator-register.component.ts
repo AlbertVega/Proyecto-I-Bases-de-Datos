@@ -68,9 +68,9 @@ export class OperatorRegisterComponent implements OnInit{
   }
 
   getError(control: any): string {
-    if (control.errors?.required && control.touched)
+    if (control.errors?.required && control.dirty)
       return "Campo requerido";
-    else if (control.errors?.emailError && control.touched)
+    else if (control.errors?.emailError && control.dirty)
       return 'Formato incorrecto';
     else return '';
   }
@@ -78,7 +78,7 @@ export class OperatorRegisterComponent implements OnInit{
   emailValidation(control: AbstractControl) {
     const pattern = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,20}$/;
     const value = control.value;
-    if (!pattern.test(value) && control.touched) {
+    if (!pattern.test(value) && control.dirty) {
       return {
         emailError: true
       }
