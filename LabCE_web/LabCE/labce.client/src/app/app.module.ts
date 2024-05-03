@@ -5,11 +5,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { OperatorLoginComponent } from './operator-login/operator-login.component';
+import { ProfessorLoginComponent } from './professor-login/professor-login.component';
+import { ProfessorViewComponent } from './professor-view/professor-view.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    OperatorLoginComponent
+    OperatorLoginComponent,
+    ProfessorLoginComponent,
+    ProfessorViewComponent
   ],
   imports: [
     BrowserModule, HttpClientModule,
