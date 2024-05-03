@@ -16,7 +16,7 @@
               <label for="Nombre" class="col-sm-3 col-form-label">Nombre</label>
               <div class="col-sm-4 pb-3">
                 <input formControlName="pNombre" type="text" class="form-control" id="primerNombre" placeholder="Primer Nombre" autocomplete="off">
-                <small *ngIf="formulario.controls['pNombre'].dirty && formulario.hasError('required', 'pNombre')" class="text-danger">Campo requerido</small>                
+                <small *ngIf="formulario.controls['pNombre'].dirty && formulario.hasError('required', 'pNombre')" class="text-danger">Campo requerido</small>
               </div>
               <div class="col-sm-5 pb-3">
                 <input formControlName="apellidos" type="text" class="form-control" id="apellidos" placeholder="Apellidos" autocomplete="off">
@@ -79,8 +79,13 @@
                 <small *ngIf="formulario.controls['nacimiento'].dirty && formulario.hasError('required', 'nacimiento')" class="text-danger">Campo requerido</small>
               </div>
             </div>
-            <button (click)="onRegister()" type="submit" class="btn btn-primary">Registrar</button>
+            <div class="form-group row">
+              <button (click)="onRegister()" type="submit" class="btn btn-primary">Registrar</button>
+            </div>
           </form>
+          <div class="row pt-2">
+            <button class="btn btn-danger">Dar de Alta</button>
+          </div>
 
         </div>
       </div>

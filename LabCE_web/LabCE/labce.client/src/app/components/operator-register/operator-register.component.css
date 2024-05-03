@@ -18,14 +18,14 @@
 
 .box-area {
   width: 1200px;
-  height: 880px;
+  height: 910px;
   opacity: 0;
   animation: fadeIn 0.3s ease-in forwards;
   border-radius: 30px 30px 30px 30px;
 }
 
 body {
-  height: 880px;
+  height: 910px;
   padding: 0;
   margin: 0;
   font-family: 'Poppins';
