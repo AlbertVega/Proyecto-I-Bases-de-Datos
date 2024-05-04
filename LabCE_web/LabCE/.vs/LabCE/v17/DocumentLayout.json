@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|d:\\tec\\vii semestre\\bases de datos\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.client\\src\\app\\editable-table\\editable-table.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|solutionrelative:labce.client\\src\\app\\editable-table\\editable-table.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|d:\\tec\\vii semestre\\bases de datos\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.client\\src\\app\\editable-table\\editable-table.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|solutionrelative:labce.client\\src\\app\\editable-table\\editable-table.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|d:\\tec\\vii semestre\\bases de datos\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.client\\src\\app\\lab-booking\\lab-booking.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|solutionrelative:labce.client\\src\\app\\lab-booking\\lab-booking.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|d:\\tec\\vii semestre\\bases de datos\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.client\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|solutionrelative:labce.client\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|d:\\tec\\vii semestre\\bases de datos\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.client\\src\\app\\editable-table\\editable-table.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|solutionrelative:labce.client\\src\\app\\editable-table\\editable-table.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|d:\\tec\\vii semestre\\bases de datos\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.client\\src\\app\\lab-booking\\lab-booking.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|solutionrelative:labce.client\\src\\app\\lab-booking\\lab-booking.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|d:\\tec\\vii semestre\\bases de datos\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.client\\src\\app\\lab-booking\\lab-booking.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|solutionrelative:labce.client\\src\\app\\lab-booking\\lab-booking.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|d:\\tec\\vii semestre\\bases de datos\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.client\\src\\app\\editable-table\\editable-table.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|solutionrelative:labce.client\\src\\app\\editable-table\\editable-table.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|d:\\tec\\vii semestre\\bases de datos\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.client\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|solutionrelative:labce.client\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "app.module.ts",
               "DocumentMoniker": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\app.module.ts",
               "RelativeDocumentMoniker": "labce.client\\src\\app\\app.module.ts",
@@ -47,72 +43,58 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2024-04-29T03:28:09.124Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "editable-table.component.css",
-              "DocumentMoniker": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\editable-table\\editable-table.component.css",
-              "RelativeDocumentMoniker": "labce.client\\src\\app\\editable-table\\editable-table.component.css",
-              "ToolTip": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\editable-table\\editable-table.component.css",
-              "RelativeToolTip": "labce.client\\src\\app\\editable-table\\editable-table.component.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-03T20:58:50.944Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "lab-booking.component.css",
               "DocumentMoniker": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\lab-booking\\lab-booking.component.css",
               "RelativeDocumentMoniker": "labce.client\\src\\app\\lab-booking\\lab-booking.component.css",
               "ToolTip": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\lab-booking\\lab-booking.component.css",
               "RelativeToolTip": "labce.client\\src\\app\\lab-booking\\lab-booking.component.css",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAC0AAAAYAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAADwvzQAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-29T03:39:39.476Z",
+              "WhenOpened": "2024-05-04T06:43:37.242Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "editable-table.component.ts",
-              "DocumentMoniker": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\editable-table\\editable-table.component.ts",
-              "RelativeDocumentMoniker": "labce.client\\src\\app\\editable-table\\editable-table.component.ts",
-              "ToolTip": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\editable-table\\editable-table.component.ts",
-              "RelativeToolTip": "labce.client\\src\\app\\editable-table\\editable-table.component.ts",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-05-03T21:10:42.303Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "editable-table.component.html",
-              "DocumentMoniker": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\editable-table\\editable-table.component.html",
-              "RelativeDocumentMoniker": "labce.client\\src\\app\\editable-table\\editable-table.component.html",
-              "ToolTip": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\editable-table\\editable-table.component.html",
-              "RelativeToolTip": "labce.client\\src\\app\\editable-table\\editable-table.component.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-05-03T21:13:09.184Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "lab-booking.component.ts",
               "DocumentMoniker": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\lab-booking\\lab-booking.component.ts",
               "RelativeDocumentMoniker": "labce.client\\src\\app\\lab-booking\\lab-booking.component.ts",
               "ToolTip": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\lab-booking\\lab-booking.component.ts",
               "RelativeToolTip": "labce.client\\src\\app\\lab-booking\\lab-booking.component.ts",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAOAAAA",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAuwDoAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2024-05-02T02:04:58.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "lab-booking.component.html",
+              "DocumentMoniker": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\lab-booking\\lab-booking.component.html",
+              "RelativeDocumentMoniker": "labce.client\\src\\app\\lab-booking\\lab-booking.component.html",
+              "ToolTip": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\lab-booking\\lab-booking.component.html",
+              "RelativeToolTip": "labce.client\\src\\app\\lab-booking\\lab-booking.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-04T04:23:41.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "editable-table.component.ts",
+              "DocumentMoniker": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\editable-table\\editable-table.component.ts",
+              "RelativeDocumentMoniker": "labce.client\\src\\app\\editable-table\\editable-table.component.ts",
+              "ToolTip": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\editable-table\\editable-table.component.ts",
+              "RelativeToolTip": "labce.client\\src\\app\\editable-table\\editable-table.component.ts",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAqwAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-03T21:10:42.303Z",
               "EditorCaption": ""
             }
           ]

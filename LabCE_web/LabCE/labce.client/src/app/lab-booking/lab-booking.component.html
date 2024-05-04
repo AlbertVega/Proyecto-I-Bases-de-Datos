@@ -7,20 +7,26 @@
             <thead>
               <tr>
                 <th>Horario</th>
-                <th>Lunes</th>
-                <th>Martes</th>
-                <th>Miércoles</th>
-                <th>Jueves</th>
-                <th>Viernes</th>
+                <th id="1">Lunes</th>
+                <th id="2">Martes</th>
+                <th id="3">Miércoles</th>
+                <th id="4">Jueves</th>
+                <th id="5">Viernes</th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td class="hour">7:30 a 8:20</td>
-                <td class="reserved" rowspan="4">
-                  <h4>Datos 1</h4>
-                  <p>7:30 am - 8:20 am</p>
-                </td>
+                <ng-container *ngFor="let reservation of reservations; let i = index">
+                  <ng-container *ngIf="reservation.startHour == '07:30'">
+
+                    <td class="reserved" [attr.headers]="calculateDayOfWeek(reservation.date)" [attr.rowspan]="calculateHours(reservation.startHour, reservation.endHour)">
+                      <h4>{{reservation.description}}</h4>
+                      <p>{{reservation.professor}}</p>
+                      <p>{{calculateDayOfWeek(reservation.date)}}</p>
+                    </td>
+                  </ng-container>
+                </ng-container>
               </tr>
               <tr>
                 <td class="hour">8:30 a 9:20</td>
@@ -36,11 +42,6 @@
               </tr>
               <tr>
                 <td class="hour">12:30 a 12:50</td>
-                <td></td>
-                <td class="reserved" rowspan="2">
-                  <h4>Datos 2</h4>
-                  <p>12:30 am - 13:50 am</p>
-                </td>
               </tr>
               <tr>
                 <td class="hour">13:00 a 13:50</td>

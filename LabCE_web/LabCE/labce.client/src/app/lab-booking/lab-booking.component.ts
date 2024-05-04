@@ -6,7 +6,41 @@ import { Component } from '@angular/core';
   styleUrl: './lab-booking.component.css'
 })
 export class LabBookingComponent {
-  //for eg: [{startDate: '01/01/2020', endDate: '07/01/2020'}, {startDate: '08/01/2020', endDate: '14/01/2020'}, {startDate: '15/01/2020', endDate: '21/01/2020'}, {startDate: '22/01/2020', endDate: '28/01/2020'}]
+
+  reservations = [
+    { startHour: '09:00', endHour: '10:00', date: '03/01/2024', description: 'Datos 2', professor: 'Jane Smith' },
+    { startHour: '07:30', endHour: '13:00', date: '01/05/2024', description: 'Datos 1', professor: 'John Doe' },
+    { startHour: '10:00', endHour: '11:00', date: '03/01/2024', description: 'Datos 3', professor: 'John Doe' },
+    { startHour: '11:00', endHour: '12:00', date: '03/01/2024', description: 'Datos 4', professor: 'Jane Smith' },
+    { startHour: '08:00', endHour: '09:00', date: '04/01/2024', description: 'Datos 5', professor: 'John Doe' },
+    { startHour: '09:00', endHour: '10:00', date: '04/01/2024', description: 'Datos 6', professor: 'Jane Smith' },
+    { startHour: '10:00', endHour: '11:00', date: '04/01/2024', description: 'Datos 7', professor: 'John Doe' },
+    { startHour: '11:00', endHour: '12:00', date: '04/01/2024', description: 'Datos 8', professor: 'Jane Smith' },
+    { startHour: '08:00', endHour: '09:00', date: '05/01/2024', description: 'Datos 9', professor: 'John Doe' },
+    { startHour: '09:00', endHour: '10:00', date: '05/01/2024', description: 'Datos 10', professor: 'Jane Smith' },
+    { startHour: '10:00', endHour: '11:00', date: '05/01/2024', description: 'Datos 11', professor: 'John Doe' },
+    { startHour: '11:00', endHour: '12:00', date: '05/01/2024', description: 'Datos 12', professor: 'Jane Smith' }
+  ];
+
+  calculateHours(startHour: string, endHour: string) {
+    const start = startHour.split(':');
+    const end = endHour.split(':');
+    const startMinutes = parseInt(start[0]) * 60 + parseInt(start[1]);
+    const endMinutes = parseInt(end[0]) * 60 + parseInt(end[1]);
+    const hours = (endMinutes - startMinutes) / 60;
+    const roundedHours = Math.ceil(hours);
+    return roundedHours;
+  }
+
+  calculateDayOfWeek(date: string) {
+    const parts = date.split('/');
+    const day = parseInt(parts[0]);
+    const month = parseInt(parts[1]);
+    const year = parseInt(parts[2]);
+    const dateObject = new Date(year, month - 1, day);
+    return dateObject.getDay();
+  }
+
   getWeeks() {
     const currentDate = new Date();
     const weeks = [];
