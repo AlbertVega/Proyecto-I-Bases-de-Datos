@@ -7,20 +7,28 @@ import { Component } from '@angular/core';
 })
 export class LabBookingComponent {
 
+  dateOfWeek = [];
+
   reservations = [
-    { startHour: '09:00', endHour: '10:00', date: '03/01/2024', description: 'Datos 2', professor: 'Jane Smith' },
-    { startHour: '07:30', endHour: '13:00', date: '01/05/2024', description: 'Datos 1', professor: 'John Doe' },
-    { startHour: '10:00', endHour: '11:00', date: '03/01/2024', description: 'Datos 3', professor: 'John Doe' },
-    { startHour: '11:00', endHour: '12:00', date: '03/01/2024', description: 'Datos 4', professor: 'Jane Smith' },
-    { startHour: '08:00', endHour: '09:00', date: '04/01/2024', description: 'Datos 5', professor: 'John Doe' },
-    { startHour: '09:00', endHour: '10:00', date: '04/01/2024', description: 'Datos 6', professor: 'Jane Smith' },
-    { startHour: '10:00', endHour: '11:00', date: '04/01/2024', description: 'Datos 7', professor: 'John Doe' },
-    { startHour: '11:00', endHour: '12:00', date: '04/01/2024', description: 'Datos 8', professor: 'Jane Smith' },
-    { startHour: '08:00', endHour: '09:00', date: '05/01/2024', description: 'Datos 9', professor: 'John Doe' },
-    { startHour: '09:00', endHour: '10:00', date: '05/01/2024', description: 'Datos 10', professor: 'Jane Smith' },
-    { startHour: '10:00', endHour: '11:00', date: '05/01/2024', description: 'Datos 11', professor: 'John Doe' },
-    { startHour: '11:00', endHour: '12:00', date: '05/01/2024', description: 'Datos 12', professor: 'Jane Smith' }
+    { startHour: '09:00', endHour: '10:30', day: 'Viernes', description: 'Datos 2', professor: 'Jane Smith' },
+    { startHour: '10:45', endHour: '12:15', day: 'Viernes', description: 'Datos 2', professor: 'Jane Smith' },
+    { startHour: '12:30', endHour: '14:00', day: 'Viernes', description: 'Datos 2', professor: 'Jane Smith' },
+    { startHour: '14:15', endHour: '15:45', day: 'Viernes', description: 'Datos 2', professor: 'Jane Smith' },
+    { startHour: '16:00', endHour: '17:30', day: 'Viernes', description: 'Datos 2', professor: 'Jane Smith' },
+    { startHour: '17:45', endHour: '19:15', day: 'Viernes', description: 'Datos 2', professor: 'Jane Smith' },
+    { startHour: '09:00', endHour: '10:30', day: 'Martes', description: 'Datos 2', professor: 'Jane Smith' },
+    { startHour: '10:45', endHour: '12:15', day: 'Martes', description: 'Datos 2', professor: 'Jane Smith' },
+    { startHour: '12:30', endHour: '14:00', day: 'Martes', description: 'Datos 2', professor: 'Jane Smith' },
+    { startHour: '14:15', endHour: '15:45', day: 'Martes', description: 'Datos 2', professor: 'Jane Smith' },
+    { startHour: '16:00', endHour: '17:30', day: 'Martes', description: 'Datos 2', professor: 'Jane Smith' },
+    { startHour: '17:45', endHour: '19:15', day: 'Martes', description: 'Datos 2', professor: 'Jane Smith' },
+    { startHour: '09:00', endHour: '10:30', day: 'Miercoles', description: 'Datos 2', professor: 'Jane Smith' },
+    { startHour: '10:45', endHour: '12:15', day: 'Miercoles', description: 'Datos 2', professor: 'Jane Smith' },
   ];
+
+  hasReservationsForDay(day: string) {
+    return this.reservations.some(reservation => reservation.day === day);
+  }
 
   calculateHours(startHour: string, endHour: string) {
     const start = startHour.split(':');

@@ -4,27 +4,41 @@
       <div class="col-12">
         <div class="schedule-table">
           <table class="table">
+            <colgroup>
+              <col>
+              <col style="order:1">
+              <col style="order:2">
+              <col style="order:3">
+              <col style="order:4">
+              <col style="order:5">
+            </colgroup>
             <thead>
               <tr>
                 <th>Horario</th>
-                <th id="1">Lunes</th>
-                <th id="2">Martes</th>
-                <th id="3">Miércoles</th>
-                <th id="4">Jueves</th>
-                <th id="5">Viernes</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td class="hour">7:30 a 8:20</td>
-                <ng-container *ngFor="let reservation of reservations; let i = index">
-                  <ng-container *ngIf="reservation.startHour == '07:30'">
-
-                    <td class="reserved" [attr.headers]="calculateDayOfWeek(reservation.date)" [attr.rowspan]="calculateHours(reservation.startHour, reservation.endHour)">
-                      <h4>{{reservation.description}}</h4>
-                      <p>{{reservation.professor}}</p>
-                      <p>{{calculateDayOfWeek(reservation.date)}}</p>
+                <ng-container *ngFor="let day of daysOfWeek">
+                  <ng-container *ngIf="hasReservationsForDay(day)"> <!--terminar de implementar-->
+                    <td>
+                      <ng-container *ngFor="let reservation of getReservationsForDay(day)">
+                        <td class="reserved" [attr.rowspan]="calculateHours(reservation.startHour, reservation.endHour)">
+                          <h4>{{reservation.description}}</h4>
+                          <p>{{reservation.professor}}</p>
+                          <p>{{calculateDayOfWeek(reservation.date)}}</p>
+                        </td>
+                      </ng-container>
                     </td>
+                  </ng-container>
+                  <ng-container *ngIf="!hasReservationsForDay(day)">
+                    <td></td>
                   </ng-container>
                 </ng-container>
               </tr>
