@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.labce.ScheduleActivity
+import com.example.labce.TabScheduleActivity
 import com.example.labce.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {
@@ -25,15 +26,14 @@ class HomeFragment : Fragment() {
 
 
     ): View {
-        val homeViewModel =
-            ViewModelProvider(this).get(HomeViewModel::class.java)
+        val homeViewModel = ViewModelProvider(this).get(HomeViewModel::class.java)
 
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
 
         binding.btnGoRequest05.setOnClickListener {
-            val intent = Intent(this.context, ScheduleActivity::class.java)
+            val intent = Intent(this.context, TabScheduleActivity::class.java)
             startActivity(intent)
         }
 
