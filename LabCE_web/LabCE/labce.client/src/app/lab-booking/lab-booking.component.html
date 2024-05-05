@@ -23,67 +23,25 @@
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td class="hour">7:30 a 8:20</td>
-                <ng-container *ngFor="let day of daysOfWeek">
-                  <ng-container *ngIf="hasReservationsForDay(day)"> <!--terminar de implementar-->
-                    <td>
-                      <ng-container *ngFor="let reservation of getReservationsForDay(day)">
+              <ng-container *ngFor="let hour of startingHours, let i = index">
+                <tr>
+                  <td class="hour">{{startingHours[i]}}-{{endHours[i]}}</td>
+                  <ng-container *ngFor="let day of daysOfWeek">
+                    <ng-container *ngIf="hasReservationsForDayHour(day, hour)">
+                      <ng-container *ngFor="let reservation of getReservationForDayHour(day, hour)">
                         <td class="reserved" [attr.rowspan]="calculateHours(reservation.startHour, reservation.endHour)">
                           <h4>{{reservation.description}}</h4>
                           <p>{{reservation.professor}}</p>
-                          <p>{{calculateDayOfWeek(reservation.date)}}</p>
+                          <p>{{reservation.day}}</p>
                         </td>
                       </ng-container>
-                    </td>
+                    </ng-container>
+                    <ng-container *ngIf="!hasReservationsForDayHour(day, hour) && !hasReservationAtHour(day, hour)">
+                      <td></td>
+                    </ng-container>
                   </ng-container>
-                  <ng-container *ngIf="!hasReservationsForDay(day)">
-                    <td></td>
-                  </ng-container>
-                </ng-container>
-              </tr>
-              <tr>
-                <td class="hour">8:30 a 9:20</td>
-              </tr>
-              <tr>
-                <td class="hour">9:30 a 10:20</td>
-              </tr>
-              <tr>
-                <td class="hour">10:30 a 11:20</td>
-              </tr>
-              <tr>
-                <td class="hour">11:30 a 12:20</td>
-              </tr>
-              <tr>
-                <td class="hour">12:30 a 12:50</td>
-              </tr>
-              <tr>
-                <td class="hour">13:00 a 13:50</td>
-              </tr>
-              <tr>
-                <td class="hour">14:00 a 14:50</td>
-              </tr>
-              <tr>
-                <td class="hour">15:00 a 15:50</td>
-              </tr>
-              <tr>
-                <td class="hour">16:00 a 16:50</td>
-              </tr>
-              <tr>
-                <td class="hour">17:00 a 17:50</td>
-              </tr>
-              <tr>
-                <td class="hour">18:00 a 18:50</td>
-              </tr>
-              <tr>
-                <td class="hour">19:00 a 19:50</td>
-              </tr>
-              <tr>
-                <td class="hour">20:00 a 20:50</td>
-              </tr>
-              <tr>
-                <td class="hour">21:00 a 21:50</td>
-              </tr>
+                </tr>
+              </ng-container>
             </tbody>
           </table>
         </div>
