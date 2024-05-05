@@ -14,6 +14,12 @@ import { PrestamoActivoComponent } from './components/operator-view/prestamo-act
 import { ReservaLabComponent } from './components/operator-view/reserva-lab/reserva-lab.component';
 import { RegDevolucionComponent } from './components/operator-view/reg-devolucion/reg-devolucion.component';
 import { ReportesComponent } from './components/operator-view/reportes/reportes.component';
+import { ProfessorLoginComponent } from './components/professor-login/professor-login.component';
+import { ProfessorViewComponent } from './components/professor-view/professor-view.component';
+import { AprobarPrestamoComponent } from './components/professor-view/aprobar-prestamo/aprobar-prestamo.component';
+import { ReservarLabProfessorComponent } from './components/professor-view/reservar-lab-professor/reservar-lab-professor.component';
+import { ProfSidenavComponent } from './components/professor-view/prof-sidenav/prof-sidenav.component';
+import { ProfReservaLabComponent } from './components/professor-view/prof-reserva-lab/prof-reserva-lab.component';
 
 @NgModule({
   declarations: [
@@ -27,12 +33,18 @@ import { ReportesComponent } from './components/operator-view/reportes/reportes.
     ReservaLabComponent,
     RegDevolucionComponent,
     ReportesComponent,
+    ProfessorLoginComponent,
+    ProfessorViewComponent,
+    AprobarPrestamoComponent,
+    ReservarLabProfessorComponent,
+    ProfSidenavComponent,
+    ProfReservaLabComponent,
   ],
   imports: [
     BrowserModule, HttpClientModule,
     AppRoutingModule, ReactiveFormsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent, OperatorLoginComponent]
+  bootstrap: [AppComponent, ProfessorLoginComponent, OperatorLoginComponent]
 })
 export class AppModule { }

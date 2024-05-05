@@ -7,10 +7,14 @@ import { PrestamoActivoComponent } from './components/operator-view/prestamo-act
 import { RegDevolucionComponent } from './components/operator-view/reg-devolucion/reg-devolucion.component';
 import { ReservaLabComponent } from './components/operator-view/reserva-lab/reserva-lab.component';
 import { ReportesComponent } from './components/operator-view/reportes/reportes.component';
+import { ProfessorLoginComponent } from './components/professor-login/professor-login.component';
+import { ProfessorViewComponent } from './components/professor-view/professor-view.component';
+import { ReservarLabProfessorComponent } from './components/professor-view/reservar-lab-professor/reservar-lab-professor.component';
+import { AprobarPrestamoComponent } from './components/professor-view/aprobar-prestamo/aprobar-prestamo.component';
 
 const routes: Routes = [
   
-  {path: 'op-login', component: OperatorLoginComponent},
+  { path: '', redirectTo: 'professor-login', pathMatch: 'full' }, 
   { path: 'op-register', component: OperatorRegisterComponent},
   {
     path: 'op-view', 
@@ -20,6 +24,16 @@ const routes: Routes = [
       {path: 'reg-devolucion', component: RegDevolucionComponent},
       {path: 'reserva-lab', component: ReservaLabComponent},
       {path: 'reportes', component: ReportesComponent}
+    ]
+  },
+  { path: 'professor-login', component: ProfessorLoginComponent},
+  { path: 'operator-login', component: OperatorLoginComponent}, 
+  {
+    path: 'prof-view', 
+    component: ProfessorViewComponent, 
+    children: [
+      {path: 'aprobar-prestamo', component: AprobarPrestamoComponent},
+      {path: 'reservar-lab-professor', component: ReservarLabProfessorComponent}
     ]
   }
 

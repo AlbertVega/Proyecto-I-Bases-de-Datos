@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\galva\\OneDrive\\Escritorio\\TEC\\1er semestre 2024\\Bases\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\LabCE.Server\\LabCE.Server.csproj": {}
+    "C:\\Users\\ederv\\Documents\\TEC\\Bases\\Proyecto1\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\LabCE.Server\\LabCE.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\galva\\OneDrive\\Escritorio\\TEC\\1er semestre 2024\\Bases\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\LabCE.Server\\LabCE.Server.csproj": {
+    "C:\\Users\\ederv\\Documents\\TEC\\Bases\\Proyecto1\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\LabCE.Server\\LabCE.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\galva\\OneDrive\\Escritorio\\TEC\\1er semestre 2024\\Bases\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\LabCE.Server\\LabCE.Server.csproj",
+        "projectUniqueName": "C:\\Users\\ederv\\Documents\\TEC\\Bases\\Proyecto1\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\LabCE.Server\\LabCE.Server.csproj",
         "projectName": "LabCE.Server",
-        "projectPath": "C:\\Users\\galva\\OneDrive\\Escritorio\\TEC\\1er semestre 2024\\Bases\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\LabCE.Server\\LabCE.Server.csproj",
-        "packagesPath": "C:\\Users\\galva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\galva\\OneDrive\\Escritorio\\TEC\\1er semestre 2024\\Bases\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\LabCE.Server\\obj\\",
+        "projectPath": "C:\\Users\\ederv\\Documents\\TEC\\Bases\\Proyecto1\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\LabCE.Server\\LabCE.Server.csproj",
+        "packagesPath": "C:\\Users\\ederv\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ederv\\Documents\\TEC\\Bases\\Proyecto1\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\LabCE.Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\galva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ederv\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
