@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:4200",
 "RedirectUrl": "",
 "LaunchCommand": "npm start",
-"WorkingDirectory": "C:\\Users\\galva\\OneDrive\\Escritorio\\TEC\\1er semestre 2024\\Bases\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\LabCE.Server\\..\\labce.client",
+"WorkingDirectory": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\LabCE.Server\\..\\labce.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

@@ -1,6 +1,6 @@
 <body>
   <div class="container d-flex justify-content-center align-items-center">
-    <div class="row box-area bg-white shadow ">
+    <div class="row box-area bg-white shadow">
 
       <div class="col-md-5 left-box" style="background-image: url('../../assets/login-img.jpg'); background-size:cover; background-position:0% ;">
       </div>
@@ -83,13 +83,16 @@
               <button (click)="onRegister()" type="submit" class="btn btn-primary">Registrar</button>
             </div>
           </form>
-          <div class="row pt-2">
-            <button class="btn btn-danger">Dar de Alta</button>
-          </div>
-
         </div>
       </div>
-
     </div>
+    <app-unsubscribe></app-unsubscribe>
+
   </div>
+
+  
 </body>
+
+<router-outlet></router-outlet>
+
+

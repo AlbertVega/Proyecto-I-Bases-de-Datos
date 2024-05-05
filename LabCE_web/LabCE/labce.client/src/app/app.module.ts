@@ -14,6 +14,7 @@ import { PrestamoActivoComponent } from './components/operator-view/prestamo-act
 import { ReservaLabComponent } from './components/operator-view/reserva-lab/reserva-lab.component';
 import { RegDevolucionComponent } from './components/operator-view/reg-devolucion/reg-devolucion.component';
 import { ReportesComponent } from './components/operator-view/reportes/reportes.component';
+import { UnsubscribeComponent } from './components/operator-register/unsubscribe/unsubscribe.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { ReportesComponent } from './components/operator-view/reportes/reportes.
     ReservaLabComponent,
     RegDevolucionComponent,
     ReportesComponent,
+    UnsubscribeComponent,
   ],
   imports: [
     BrowserModule, HttpClientModule,

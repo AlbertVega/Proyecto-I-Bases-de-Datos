@@ -12,23 +12,23 @@ import { ServicioOperadorService } from '../../Services/servicio-operador.servic
   styleUrl: './operator-register.component.css'
 })
 
-export class OperatorRegisterComponent implements OnInit{
+export class OperatorRegisterComponent implements OnInit {
 
   formulario!: FormGroup;
 
-  constructor(  
+  constructor(
     private _operadorServicio: ServicioOperadorService,
     private fb: FormBuilder
   ) { }
 
   ngOnInit(): void {
     this.formulario = this.fb.group({
-      pNombre: ['',Validators.required],
-      apellidos: ['',Validators.required],
-      email: ['',[Validators.required, this.emailValidation]],
-      password: ['', [Validators.required,Validators.pattern(StrongPasswordRegx)]],
-      cedula: ['',Validators.required],
-      carnet: ['',Validators.required],
+      pNombre: ['', Validators.required],
+      apellidos: ['', Validators.required],
+      email: ['', [Validators.required, this.emailValidation]],
+      password: ['', [Validators.required, Validators.pattern(StrongPasswordRegx)]],
+      cedula: ['', Validators.required],
+      carnet: ['', Validators.required],
       nacimiento: ['', Validators.required]
     });
   }
@@ -60,7 +60,7 @@ export class OperatorRegisterComponent implements OnInit{
       })
     } else {
       ValidateForm.validateAllFormFields(this.formulario)
-    }    
+    }
   }
 
   get passwordFormField() {

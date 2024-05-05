@@ -7,11 +7,17 @@ import { PrestamoActivoComponent } from './components/operator-view/prestamo-act
 import { RegDevolucionComponent } from './components/operator-view/reg-devolucion/reg-devolucion.component';
 import { ReservaLabComponent } from './components/operator-view/reserva-lab/reserva-lab.component';
 import { ReportesComponent } from './components/operator-view/reportes/reportes.component';
+import { UnsubscribeComponent } from './components/operator-register/unsubscribe/unsubscribe.component';
 
 const routes: Routes = [
   
   {path: 'op-login', component: OperatorLoginComponent},
-  { path: 'op-register', component: OperatorRegisterComponent},
+  {
+    path: 'op-register', component: OperatorRegisterComponent,
+    children: [
+      {path: 'unsubscribe', component: UnsubscribeComponent}
+    ]
+  },
   {
     path: 'op-view', 
     component: OperatorViewComponent, 
@@ -22,7 +28,6 @@ const routes: Routes = [
       {path: 'reportes', component: ReportesComponent}
     ]
   }
-
 ];
 
 @NgModule({
