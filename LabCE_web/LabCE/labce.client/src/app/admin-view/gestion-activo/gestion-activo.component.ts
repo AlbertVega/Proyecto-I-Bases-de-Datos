@@ -7,9 +7,9 @@ import { Component } from '@angular/core';
 })
 export class GestionActivoComponent {
   rows = [
-    { placa: '1234', tipo: 'Computadora', marca: 'HP', fechaCompra: '2021-01-01', prestamoRequiereAprobacion: 'No' },
-    { placa: '5678', tipo: 'Computadora', marca: 'HP', fechaCompra: '2021-01-01', prestamoRequiereAprobacion: 'No' },
-    { placa: '9101', tipo: 'Computadora', marca: 'HP', fechaCompra: '2021-01-01', prestamoRequiereAprobacion: 'No' }
+    { placa: 1234, tipo: 'Computadora', marca: 'HP', fechaCompra: '2021-01-01', prestamoRequiereAprobacion: 'No', labDisponible: 'F2-08' },
+    { placa: 5678, tipo: 'Computadora', marca: 'HP', fechaCompra: '2021-01-01', prestamoRequiereAprobacion: 'No', labDisponible: 'F2-08' },
+    { placa: 9101, tipo: 'Computadora', marca: 'HP', fechaCompra: '2021-01-01', prestamoRequiereAprobacion: 'No', labDisponible: 'F2-08' }
   ];
 
   editingRow: boolean[] = [];
@@ -21,7 +21,7 @@ export class GestionActivoComponent {
   }
 
   addRow() {
-    this.rows.push({ placa: '', tipo: '', marca: '', fechaCompra: '', prestamoRequiereAprobacion: '' });
+    this.rows.push({ placa: 0, tipo: '', marca: '', fechaCompra: '', prestamoRequiereAprobacion: '', labDisponible: ''});
     this.editingRow.push(true);
   }
 
