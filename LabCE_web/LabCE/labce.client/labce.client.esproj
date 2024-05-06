@@ -509,4 +509,7 @@
     <None Include="node_modules\bootstrap\scss\_variables-dark.scss" />
     <None Include="node_modules\bootstrap\scss\_variables.scss" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="src\app\helpers\" />
+  </ItemGroup>
 </Project>

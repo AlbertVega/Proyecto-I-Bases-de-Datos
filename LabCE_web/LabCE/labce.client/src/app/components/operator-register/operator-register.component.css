@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('../../../assets/Poppins-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* fade in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.box-area {
+  width: 1200px;
+  height: 880px;
+  opacity: 0;
+  animation: fadeIn 0.3s ease-in forwards;
+  border-radius: 30px 30px 30px 30px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins';
+  background-color: #abe7ff9f;
+}
+
+.right-box {
+  padding: 90px 30px 90px 30px;
+}
+
+.left-box {
+  border-radius: 30px 0 0 30px;
+}
+
+
+.passwordHelp {
+  font-size: 14px;
+}
