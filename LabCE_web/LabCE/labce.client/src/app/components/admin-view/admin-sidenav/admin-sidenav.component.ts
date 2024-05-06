@@ -7,12 +7,12 @@ interface SideNavToggle {
 }
 
 @Component({
-  selector: 'app-sidenav',
-  templateUrl: './sidenav.component.html',
-  styleUrl: './sidenav.component.css'
+  selector: 'app-admin-sidenav',
+  templateUrl: './admin-sidenav.component.html',
+  styleUrl: './admin-sidenav.component.css'
 })
-export class SidenavComponent implements OnInit {
 
+export class AdminSidenavComponent implements OnInit{
   @Output() onToggleSideNav: EventEmitter<SideNavToggle> = new EventEmitter();
   screenWidth = 0;
   collapsed = false;

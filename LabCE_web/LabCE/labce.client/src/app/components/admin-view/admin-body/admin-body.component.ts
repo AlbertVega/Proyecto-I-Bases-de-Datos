@@ -1,13 +1,11 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-body',
-  templateUrl: './body.component.html',
-  styleUrl: './body.component.css'
+  selector: 'app-admin-body',
+  templateUrl: './admin-body.component.html',
+  styleUrl: './admin-body.component.css'
 })
-
-export class BodyComponent {
-
+export class AdminBodyComponent {
   @Input() collapsed = false;
   @Input() screenWidth = 0;
 
@@ -20,5 +18,4 @@ export class BodyComponent {
     }
     return styleClass;
   }
-
 }
