@@ -2,27 +2,29 @@ import { RouterLink } from "@angular/router";
 
 export const navbarData = [
   {
-    routeLink: 'prestamo-activo',
-    icon: 'fal fa-laptop-code',
-    label: 'Prestamo de activo'
+    label: 'Gestión de laboratorios',
+    icon: 'fal fa-flask',
+    routeLink: 'gestion-lab'
   },
-
   {
-    routeLink: 'reg-devolucion',
-    icon: 'fal fa-reply',
-    label: 'Registro de devolución'
+    label: 'Gestión de activos',
+    icon: 'fal fa-cogs',
+    routeLink: 'gestion-activo'
   },
-
   {
-    routeLink: 'reserva-lab',
-    icon: 'fal fa-server',
-    label: 'Reserva de laboratorio'
+    label: 'Gestión de profesores',
+    icon: 'fal fa-user',
+    routeLink: 'gestion-prof'
   },
-
   {
-    routeLink: 'reportes',
-    icon: 'fal fa-file-alt',
-    label: 'Reportes'
+    label: 'Aprobación de operaciones',
+    icon: 'fal fa-check',
+    routeLink: 'aprobacion-op'
+  },
+  {
+    label: 'Restablecimiento de contraseña',
+    icon: 'fal fa-key',
+    routeLink: 'rst-pwd'
   }
 
 ]

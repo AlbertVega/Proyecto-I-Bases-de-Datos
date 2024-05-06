@@ -3,56 +3,36 @@
   "WorkspaceRootPath": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|d:\\tec\\vii semestre\\bases de datos\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.client\\src\\app\\admin-view\\sidenav\\sidenav.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|solutionrelative:labce.client\\src\\app\\admin-view\\sidenav\\sidenav.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|d:\\tec\\vii semestre\\bases de datos\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.client\\src\\app\\admin-view\\admin-view.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|solutionrelative:labce.client\\src\\app\\admin-view\\admin-view.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|d:\\tec\\vii semestre\\bases de datos\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.client\\src\\app\\admin-view\\body\\body.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|solutionrelative:labce.client\\src\\app\\admin-view\\body\\body.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|d:\\tec\\vii semestre\\bases de datos\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.client\\src\\app\\admin-view\\body\\body.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|solutionrelative:labce.client\\src\\app\\admin-view\\body\\body.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|d:\\tec\\vii semestre\\bases de datos\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.client\\src\\app\\admin-view\\body\\body.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|solutionrelative:labce.client\\src\\app\\admin-view\\body\\body.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|d:\\tec\\vii semestre\\bases de datos\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.client\\src\\app\\admin-view\\sidenav\\sidenav.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|solutionrelative:labce.client\\src\\app\\admin-view\\sidenav\\sidenav.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|d:\\tec\\vii semestre\\bases de datos\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.client\\src\\app\\admin-view\\sidenav\\nav-data.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|solutionrelative:labce.client\\src\\app\\admin-view\\sidenav\\nav-data.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|d:\\tec\\vii semestre\\bases de datos\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.client\\src\\app\\admin-view\\sidenav\\sidenav.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|solutionrelative:labce.client\\src\\app\\admin-view\\sidenav\\sidenav.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|d:\\tec\\vii semestre\\bases de datos\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.client\\src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|solutionrelative:labce.client\\src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|d:\\tec\\vii semestre\\bases de datos\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.client\\src\\app\\admin-view\\admin-view.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|solutionrelative:labce.client\\src\\app\\admin-view\\admin-view.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|d:\\tec\\vii semestre\\bases de datos\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.client\\src\\app\\admin-view\\sidenav\\sidenav.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|solutionrelative:labce.client\\src\\app\\admin-view\\sidenav\\sidenav.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|d:\\tec\\vii semestre\\bases de datos\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.client\\src\\app\\admin-view\\gestion-activo\\gestion-activo.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|solutionrelative:labce.client\\src\\app\\admin-view\\gestion-activo\\gestion-activo.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|d:\\tec\\vii semestre\\bases de datos\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.client\\src\\app\\admin-view\\admin-view.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|solutionrelative:labce.client\\src\\app\\admin-view\\admin-view.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|d:\\tec\\vii semestre\\bases de datos\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.client\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|solutionrelative:labce.client\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|d:\\tec\\vii semestre\\bases de datos\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.client\\src\\app\\admin-view\\sidenav\\sidenav.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|solutionrelative:labce.client\\src\\app\\admin-view\\sidenav\\sidenav.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|d:\\tec\\vii semestre\\bases de datos\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.client\\src\\app\\admin-login\\admin-login.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|solutionrelative:labce.client\\src\\app\\admin-login\\admin-login.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|d:\\tec\\vii semestre\\bases de datos\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.client\\src\\app\\admin-view\\body\\body.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|solutionrelative:labce.client\\src\\app\\admin-view\\body\\body.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|d:\\tec\\vii semestre\\bases de datos\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.client\\src\\app\\admin-view\\sidenav\\sidenav.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|solutionrelative:labce.client\\src\\app\\admin-view\\sidenav\\sidenav.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,175 +42,111 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "body.component.ts",
-              "DocumentMoniker": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\admin-view\\body\\body.component.ts",
-              "RelativeDocumentMoniker": "labce.client\\src\\app\\admin-view\\body\\body.component.ts",
-              "ToolTip": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\admin-view\\body\\body.component.ts",
-              "RelativeToolTip": "labce.client\\src\\app\\admin-view\\body\\body.component.ts",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-05-03T04:31:10.861Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "body.component.html",
-              "DocumentMoniker": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\admin-view\\body\\body.component.html",
-              "RelativeDocumentMoniker": "labce.client\\src\\app\\admin-view\\body\\body.component.html",
-              "ToolTip": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\admin-view\\body\\body.component.html",
-              "RelativeToolTip": "labce.client\\src\\app\\admin-view\\body\\body.component.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-05-03T04:30:53.815Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "body.component.css",
-              "DocumentMoniker": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\admin-view\\body\\body.component.css",
-              "RelativeDocumentMoniker": "labce.client\\src\\app\\admin-view\\body\\body.component.css",
-              "ToolTip": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\admin-view\\body\\body.component.css",
-              "RelativeToolTip": "labce.client\\src\\app\\admin-view\\body\\body.component.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-03T04:30:45.771Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "admin-view.component.html",
-              "DocumentMoniker": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\admin-view\\admin-view.component.html",
-              "RelativeDocumentMoniker": "labce.client\\src\\app\\admin-view\\admin-view.component.html",
-              "ToolTip": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\admin-view\\admin-view.component.html",
-              "RelativeToolTip": "labce.client\\src\\app\\admin-view\\admin-view.component.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-05-03T04:21:42.24Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "sidenav.component.html",
-              "DocumentMoniker": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\admin-view\\sidenav\\sidenav.component.html",
-              "RelativeDocumentMoniker": "labce.client\\src\\app\\admin-view\\sidenav\\sidenav.component.html",
-              "ToolTip": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\admin-view\\sidenav\\sidenav.component.html",
-              "RelativeToolTip": "labce.client\\src\\app\\admin-view\\sidenav\\sidenav.component.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-05-03T04:27:48.912Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "sidenav.component.css",
-              "DocumentMoniker": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\admin-view\\sidenav\\sidenav.component.css",
-              "RelativeDocumentMoniker": "labce.client\\src\\app\\admin-view\\sidenav\\sidenav.component.css",
-              "ToolTip": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\admin-view\\sidenav\\sidenav.component.css",
-              "RelativeToolTip": "labce.client\\src\\app\\admin-view\\sidenav\\sidenav.component.css",
-              "ViewState": "AQIAAGYAAAAAAAAAAAAuwJIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-03T04:28:08.628Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "nav-data.ts",
               "DocumentMoniker": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\admin-view\\sidenav\\nav-data.ts",
               "RelativeDocumentMoniker": "labce.client\\src\\app\\admin-view\\sidenav\\nav-data.ts",
               "ToolTip": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\admin-view\\sidenav\\nav-data.ts",
               "RelativeToolTip": "labce.client\\src\\app\\admin-view\\sidenav\\nav-data.ts",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-05-03T04:28:42.033Z",
+              "WhenOpened": "2024-05-06T02:31:16.242Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "sidenav.component.ts",
-              "DocumentMoniker": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\admin-view\\sidenav\\sidenav.component.ts",
-              "RelativeDocumentMoniker": "labce.client\\src\\app\\admin-view\\sidenav\\sidenav.component.ts",
-              "ToolTip": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\admin-view\\sidenav\\sidenav.component.ts",
-              "RelativeToolTip": "labce.client\\src\\app\\admin-view\\sidenav\\sidenav.component.ts",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-05-03T04:27:22.642Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "admin-view.component.ts",
-              "DocumentMoniker": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\admin-view\\admin-view.component.ts",
-              "RelativeDocumentMoniker": "labce.client\\src\\app\\admin-view\\admin-view.component.ts",
-              "ToolTip": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\admin-view\\admin-view.component.ts",
-              "RelativeToolTip": "labce.client\\src\\app\\admin-view\\admin-view.component.ts",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-05-03T04:22:14.109Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "admin-view.component.css",
-              "DocumentMoniker": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\admin-view\\admin-view.component.css",
-              "RelativeDocumentMoniker": "labce.client\\src\\app\\admin-view\\admin-view.component.css",
-              "ToolTip": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\admin-view\\admin-view.component.css",
-              "RelativeToolTip": "labce.client\\src\\app\\admin-view\\admin-view.component.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-03T04:21:21.754Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "app-routing.module.ts",
               "DocumentMoniker": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\app-routing.module.ts",
               "RelativeDocumentMoniker": "labce.client\\src\\app\\app-routing.module.ts",
               "ToolTip": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\app-routing.module.ts",
               "RelativeToolTip": "labce.client\\src\\app\\app-routing.module.ts",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAABHAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-05-03T03:35:12.59Z",
+              "WhenOpened": "2024-05-06T02:57:40.067Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "admin-login.component.css",
-              "DocumentMoniker": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\admin-login\\admin-login.component.css",
-              "RelativeDocumentMoniker": "labce.client\\src\\app\\admin-login\\admin-login.component.css",
-              "ToolTip": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\admin-login\\admin-login.component.css",
-              "RelativeToolTip": "labce.client\\src\\app\\admin-login\\admin-login.component.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAsAAAA",
+              "DocumentIndex": 3,
+              "Title": "gestion-activo.component.css",
+              "DocumentMoniker": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\admin-view\\gestion-activo\\gestion-activo.component.css",
+              "RelativeDocumentMoniker": "labce.client\\src\\app\\admin-view\\gestion-activo\\gestion-activo.component.css",
+              "ToolTip": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\admin-view\\gestion-activo\\gestion-activo.component.css",
+              "RelativeToolTip": "labce.client\\src\\app\\admin-view\\gestion-activo\\gestion-activo.component.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-03T03:55:08.95Z",
+              "WhenOpened": "2024-05-06T02:52:46.46Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "app.component.html",
-              "DocumentMoniker": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\app.component.html",
-              "RelativeDocumentMoniker": "labce.client\\src\\app\\app.component.html",
-              "ToolTip": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\app.component.html",
-              "RelativeToolTip": "labce.client\\src\\app\\app.component.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAATAAAA",
+              "DocumentIndex": 4,
+              "Title": "admin-view.component.css",
+              "DocumentMoniker": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\admin-view\\admin-view.component.css",
+              "RelativeDocumentMoniker": "labce.client\\src\\app\\admin-view\\admin-view.component.css",
+              "ToolTip": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\admin-view\\admin-view.component.css",
+              "RelativeToolTip": "labce.client\\src\\app\\admin-view\\admin-view.component.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAABlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-06T02:51:38.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "sidenav.component.css",
+              "DocumentMoniker": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\admin-view\\sidenav\\sidenav.component.css",
+              "RelativeDocumentMoniker": "labce.client\\src\\app\\admin-view\\sidenav\\sidenav.component.css",
+              "ToolTip": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\admin-view\\sidenav\\sidenav.component.css",
+              "RelativeToolTip": "labce.client\\src\\app\\admin-view\\sidenav\\sidenav.component.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-06T02:43:59.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "sidenav.component.ts",
+              "DocumentMoniker": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\admin-view\\sidenav\\sidenav.component.ts",
+              "RelativeDocumentMoniker": "labce.client\\src\\app\\admin-view\\sidenav\\sidenav.component.ts",
+              "ToolTip": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\admin-view\\sidenav\\sidenav.component.ts",
+              "RelativeToolTip": "labce.client\\src\\app\\admin-view\\sidenav\\sidenav.component.ts",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwBIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-06T02:30:57.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "sidenav.component.html",
+              "DocumentMoniker": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\admin-view\\sidenav\\sidenav.component.html",
+              "RelativeDocumentMoniker": "labce.client\\src\\app\\admin-view\\sidenav\\sidenav.component.html",
+              "ToolTip": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\admin-view\\sidenav\\sidenav.component.html",
+              "RelativeToolTip": "labce.client\\src\\app\\admin-view\\sidenav\\sidenav.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-05-03T03:52:51.482Z",
+              "WhenOpened": "2024-05-06T02:30:49.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "body.component.html",
+              "DocumentMoniker": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\admin-view\\body\\body.component.html",
+              "RelativeDocumentMoniker": "labce.client\\src\\app\\admin-view\\body\\body.component.html",
+              "ToolTip": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\admin-view\\body\\body.component.html",
+              "RelativeToolTip": "labce.client\\src\\app\\admin-view\\body\\body.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-06T02:14:43.611Z",
               "EditorCaption": ""
             }
           ]
