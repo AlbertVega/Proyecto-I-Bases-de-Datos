@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Login } from '../../Interfaces/login';
+import { AdminService } from '../../Services/admin.service';
 
 @Component({
   selector: 'app-admin-login',
@@ -6,5 +8,33 @@ import { Component } from '@angular/core';
   styleUrl: './admin-login.component.css'
 })
 export class AdminLoginComponent {
+
+  email: string = '';
+  password: string = '';
+
+  constructor(
+    private _adminService: AdminService
+  ) { }
+
+  onLogin() {
+    const request: Login = {
+      email: this.email,
+      password: this.password
+    }
+
+    this._adminService.login(request).subscribe({
+      next: (data) => {
+        if (data.status) {
+          console.log("Login Success");
+        } else {
+          console.log("Error Login");
+        }
+      }
+    });
+
+
+  }
+
+
 
 }

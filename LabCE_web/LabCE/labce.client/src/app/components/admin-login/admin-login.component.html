@@ -14,13 +14,13 @@
             <p class="fs-5">Inicio de sesión</p>
           </div>
           <div class="input-group mb-3">
-            <input type="text" class="form-control form-control-lg bg-light fs-6" placeholder="Nombre de usuario">
+            <input [(ngModel)]="email" type="email" class="form-control form-control-lg bg-light fs-6" placeholder="Correo">
           </div>
           <div class="input-group mb-3">
-            <input type="password" class="form-control form-control-lg bg-light fs-6" placeholder="Contraseña">
+            <input [(ngModel)]="password" type="password" class="form-control form-control-lg bg-light fs-6" placeholder="Contraseña">
           </div>
           <div class="input-group mt-4">
-            <button class="btn btn-lg btn-dark w-100 fs-6">Iniciar sesión</button>
+            <button class="btn btn-lg btn-dark w-100 fs-6" (click)="onLogin()">Iniciar sesión</button>
           </div>
         </div>
       </div>
