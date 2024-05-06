@@ -44,8 +44,8 @@ body {
   min-width: 10px;
 }
 
-.table tbody td.id:hover {
-  background: #86d4f5;
-  color: #fff;
-  border: 1px solid #86d4f5;
-}
+  .table tbody td.id:hover {
+    background: #263238;
+    color: #fff;
+    border: 1px solid #86d4f5;
+  }

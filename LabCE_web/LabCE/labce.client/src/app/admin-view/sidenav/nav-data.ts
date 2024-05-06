@@ -3,22 +3,22 @@ import { RouterLink } from "@angular/router";
 export const navbarData = [
   {
     label: 'Gestión de laboratorios',
-    icon: 'fal fa-flask',
+    icon: 'fal fa-desktop',
     routeLink: 'gestion-lab'
   },
   {
     label: 'Gestión de activos',
-    icon: 'fal fa-cogs',
+    icon: 'fal fa-tags',
     routeLink: 'gestion-activo'
   },
   {
     label: 'Gestión de profesores',
-    icon: 'fal fa-user',
+    icon: 'fal fa-users',
     routeLink: 'gestion-prof'
   },
   {
     label: 'Aprobación de operaciones',
-    icon: 'fal fa-check',
+    icon: 'fal fa-user-plus',
     routeLink: 'aprobacion-op'
   },
   {

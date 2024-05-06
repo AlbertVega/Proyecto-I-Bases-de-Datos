@@ -7,8 +7,10 @@ import { Component } from '@angular/core';
 })
 export class EditableTableComponent {
   rows = [
-    { name: 'John Doe', email: 'john@example.com' },
-    { name: 'Jane Smith', email: 'jane@example.com' }
+    { placa: '1234', tipo: 'Computadora', marca: 'HP', fechadecompra: '2021-01-01', prestamoRequiereAprobacion: 'No' },
+    { placa: '5678', tipo: 'Computadora', marca: 'HP', fechadecompra: '2021-01-01', prestamoRequiereAprobacion: 'No' },
+    { placa: '9101', tipo: 'Computadora', marca: 'HP', fechadecompra: '2021-01-01', prestamoRequiereAprobacion: 'No' }
+
   ];
 
   editingRow: boolean[] = [];
