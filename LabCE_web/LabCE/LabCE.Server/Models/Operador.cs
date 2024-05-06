@@ -1,13 +1,17 @@
-﻿namespace LabCE.Server.Models
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace LabCE.Server.Models
 {
-    public class Operador
+    public class OPERADOR
     {
-        public required string pNombre { get; set; }
-        public required string apellidos { get; set; }
-        public required string email { get; set; }
-        public required string password { get; set; }
-        public required int cedula { get; set; }
-        public required int carnet { get; set; }
-        public required string nacimiento { get; set; }
+        public string nombre { get; set; }
+        public string apellido1 { get; set; }
+        public string apellido2 { get; set; }
+        public int carnet { get; set; }
+        public bool aprobado { get; set; }
+        public string email { get; set; }
+        public byte[] op_password { get; set; }
+        public int cedula { get; set; }
+        public  DateTime fecha_nacimiento { get; set; }
     }
 }

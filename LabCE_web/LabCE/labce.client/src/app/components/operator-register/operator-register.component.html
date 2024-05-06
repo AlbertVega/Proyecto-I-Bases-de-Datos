@@ -1,6 +1,6 @@
 <body>
-  <div class="container d-flex justify-content-center align-items-center min-vh-100">
-    <div class="row box-area bg-white shadow ">
+  <div class="container d-flex justify-content-center align-items-center">
+    <div class="row box-area bg-white shadow">
 
       <div class="col-md-5 left-box" style="background-image: url('../../assets/login-img.jpg'); background-size:cover; background-position:0% ;">
       </div>
@@ -16,7 +16,7 @@
               <label for="Nombre" class="col-sm-3 col-form-label">Nombre</label>
               <div class="col-sm-4 pb-3">
                 <input formControlName="pNombre" type="text" class="form-control" id="primerNombre" placeholder="Primer Nombre" autocomplete="off">
-                <small *ngIf="formulario.controls['pNombre'].dirty && formulario.hasError('required', 'pNombre')" class="text-danger">Campo requerido</small>                
+                <small *ngIf="formulario.controls['pNombre'].dirty && formulario.hasError('required', 'pNombre')" class="text-danger">Campo requerido</small>
               </div>
               <div class="col-sm-5 pb-3">
                 <input formControlName="apellidos" type="text" class="form-control" id="apellidos" placeholder="Apellidos" autocomplete="off">
@@ -27,7 +27,11 @@
               <label for="correoEstudiantec" class="col-sm-3 col-form-label">Correo</label>
               <div class="col-sm-9">
                 <input formControlName="email" type="email" class="form-control" id="correoEstudiantec" placeholder="ejemplo@estudiantec.cr" autocomplete="off">
-                <small *ngIf="formulario.controls['email'].dirty && formulario.hasError('required', 'email')" class="text-danger">Campo requerido</small>
+                <small *ngIf="getError(formulario.get('email'))" class="text-danger">
+                  {{
+                    getError(formulario.get('email'))
+                  }}
+                </small>
               </div>
             </div>
             <div class="form-group row">
@@ -71,16 +75,24 @@
             <div class="form-group row">
               <label for="fecha" class="col-sm-3 col-form-label pt-0">Fecha de Nacimiento</label>
               <div class="col-sm-6 pb-3">
-                <input formControlName="nacimiento" type="text" class="form-control" id="nacimiento" placeholder="DD/MM/AAAA" autocomplete="off">
+                <input formControlName="nacimiento" type="date" class="form-control" id="nacimiento" placeholder="DD-MM-AAAA" autocomplete="off">
                 <small *ngIf="formulario.controls['nacimiento'].dirty && formulario.hasError('required', 'nacimiento')" class="text-danger">Campo requerido</small>
               </div>
             </div>
-            <button (click)="onRegister()" type="submit" class="btn btn-primary">Registrar</button>
+            <div class="form-group row">
+              <button (click)="onRegister()" type="submit" class="btn btn-primary">Registrar</button>
+            </div>
           </form>
-
         </div>
       </div>
-
     </div>
+    <app-unsubscribe></app-unsubscribe>
+
   </div>
+
+  
 </body>
+
+<router-outlet></router-outlet>
+
+

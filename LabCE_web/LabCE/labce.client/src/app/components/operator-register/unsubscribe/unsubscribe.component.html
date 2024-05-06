@@ -1,0 +1,30 @@
+<button type="button" class="btn btn-danger btn-unsub position-fixed" data-bs-toggle="modal" data-bs-target="#unsub">
+  Dar de Alta
+</button>
+
+<div class="modal fade" id="unsub" tabindex="-1" role="dialog" aria-labelledby="unsubCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="unsubLongTitle">Darse de Alta</h5>
+        <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <form class="needs-validation" [formGroup]="formulario">
+          <div class="form-group" style="text-align: left">
+            <label class="col-form-label">Correo:</label>
+            <input formControlName="email" type="email" class="form-control" placeholder="ejemplo@estudiantec.cr" autocomplete="off" />
+          </div>
+          <div class="form-group" style="text-align: left">
+            <label class="col-form-label">Contraseña:</label>
+            <input formControlName="password" type="password" class="form-control" autocomplete="off"/>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary" (click)="onUnsub()">Confirmar</button>
+      </div>
+    </div>
+  </div>
+</div>
