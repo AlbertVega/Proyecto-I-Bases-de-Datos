@@ -11,6 +11,7 @@ import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.example.labce.databinding.ActivityTabScheduleBinding
 import com.example.labce.ui.schedule.ScheduleFragment
 import com.example.labce.ui.schedule.ScheduleProvider
+
 import com.google.android.material.tabs.TabLayoutMediator
 
 

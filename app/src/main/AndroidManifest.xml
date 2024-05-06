@@ -13,6 +13,9 @@
         android:theme="@style/Theme.LabCE"
         tools:targetApi="31">
         <activity
+            android:name=".ChangePwdActivity"
+            android:exported="false" />
+        <activity
             android:name=".TabScheduleActivity"
             android:exported="false" />
         <activity
