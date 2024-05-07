@@ -1,1 +1,53 @@
-<h1>Registro de devolución</h1>
+<body>
+    <div class="row">
+      <div class="col-12">
+        <div class="title-table">
+            <h1>Registro de devoluciones</h1>
+            <h3>Activos prestados</h3>
+        </div>
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th>Placa</th>
+              <th>Tipo</th>
+              <th>Marca</th>
+              <th>Fecha de compra</th>
+              <th>Seleccionar</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let row of rows; let i = index">
+              <td class="id">
+                <p>{{row.placa}}</p>
+              </td>
+              <td>
+                <p>{{row.tipo}}</p>
+              </td>
+              <td>
+                <p>{{row.marca}}</p>
+              </td>
+              <td>
+                <p>{{row.fecha}}</p>
+              </td>
+              <td>
+                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                  <button *ngIf="selectedRow != i" (click)="selected(i)" class="btn btn-primary">Seleccionar</button>
+                  <button *ngIf="selectedRow == i" (click)="removeSelection()" class="btn btn-success">Seleccionado</button>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    
+    <div *ngIf="selectedRow != -1"> 
+    <form>
+        <div class="password-input">
+            <label for="password">Contraseña</label>
+            <input type="text" class="form-control" id="name" placeholder="Ingrese su contraseña">
+            <button btn class="btn btn-primary">Registrar</button>
+        </div>
+    </form>
+    </div>
+</body>

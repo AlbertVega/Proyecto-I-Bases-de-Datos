@@ -12,7 +12,6 @@ export class PrestamoActivoComponent {
 
   editingRow: boolean[] = [];
   selectedRow: number = -1;
-  modalSwitch: boolean = false;
   selectedType: string = '';
 
   constructor() {
@@ -27,10 +26,6 @@ export class PrestamoActivoComponent {
 
   removeSelection() {
     this.selectedRow = -1;
-  }
-  
-  openModal() {
-    this.modalSwitch = true;
   }
 
 }
