@@ -1,7 +1,7 @@
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { OperatorRegisterComponent } from './components/operator-register/operator-register.component';
@@ -20,6 +20,9 @@ import { AprobarPrestamoComponent } from './components/professor-view/aprobar-pr
 import { ReservarLabProfessorComponent } from './components/professor-view/reservar-lab-professor/reservar-lab-professor.component';
 import { ProfSidenavComponent } from './components/professor-view/prof-sidenav/prof-sidenav.component';
 import { ProfReservaLabComponent } from './components/professor-view/prof-reserva-lab/prof-reserva-lab.component';
+import { ProfReservarTableComponent } from './components/professor-view/prof-reserva-lab/prof-reservar-table/prof-reservar-table.component';
+import { ProfLabBookingComponent } from './components/professor-view/prof-reserva-lab/prof-lab-booking/prof-lab-booking.component';
+import { ProfPrestamoTableComponent } from './components/professor-view/aprobar-prestamo/prof-prestamo-table/prof-prestamo-table.component';
 
 @NgModule({
   declarations: [
@@ -38,13 +41,16 @@ import { ProfReservaLabComponent } from './components/professor-view/prof-reserv
     AprobarPrestamoComponent,
     ReservarLabProfessorComponent,
     ProfSidenavComponent,
+    ProfPrestamoTableComponent,
     ProfReservaLabComponent,
+    ProfReservarTableComponent,
+    ProfLabBookingComponent,
   ],
   imports: [
     BrowserModule, HttpClientModule,
-    AppRoutingModule, ReactiveFormsModule,
+    AppRoutingModule, ReactiveFormsModule, FormsModule
   ],
   providers: [],
-  bootstrap: [AppComponent, ProfessorLoginComponent, OperatorLoginComponent]
+  bootstrap: [AppComponent, ProfessorLoginComponent, OperatorLoginComponent, ProfLabBookingComponent]
 })
 export class AppModule { }

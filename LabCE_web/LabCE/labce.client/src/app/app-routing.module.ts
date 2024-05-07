@@ -14,7 +14,7 @@ import { AprobarPrestamoComponent } from './components/professor-view/aprobar-pr
 
 const routes: Routes = [
   
-  { path: '', redirectTo: 'professor-login', pathMatch: 'full' }, 
+  { path: '', redirectTo: 'prof-login', pathMatch: 'full' }, 
   { path: 'op-register', component: OperatorRegisterComponent},
   {
     path: 'op-view', 
@@ -26,7 +26,7 @@ const routes: Routes = [
       {path: 'reportes', component: ReportesComponent}
     ]
   },
-  { path: 'professor-login', component: ProfessorLoginComponent},
+  { path: 'prof-login', component: ProfessorLoginComponent},
   { path: 'operator-login', component: OperatorLoginComponent}, 
   {
     path: 'prof-view', 
