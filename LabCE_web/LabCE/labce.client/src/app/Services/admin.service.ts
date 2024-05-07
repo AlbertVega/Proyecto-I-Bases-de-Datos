@@ -9,12 +9,39 @@ import { ResponseApi } from '../Interfaces/response-api';
 })
 export class AdminService {
 
-  private urlApi: string = "https://localhost:5000/api/AdminLogin";
+  private urlApi: string = "https://localhost:5000/api";
 
   constructor(private http: HttpClient) { }
 
   login(request: Login): Observable<ResponseApi> {
+    return this.http.post<ResponseApi>(this.urlApi + "AdminLogin", request);
+  }
 
-    return this.http.post<ResponseApi>(this.urlApi, request);
+  getOperators(): Observable<ResponseApi> {
+    return this.http.get<ResponseApi>(this.urlApi + "Operator");
+  }
+
+  setOperators(request: any): Observable<ResponseApi> {
+    return this.http.post<ResponseApi>(this.urlApi + "Operator", request);
+  }
+
+  getActivos(): Observable<ResponseApi> {
+    return this.http.get<ResponseApi>(this.urlApi + "Activo");
+  }
+
+  setActivos(request: any): Observable<ResponseApi> {
+    return this.http.post<ResponseApi>(this.urlApi + "Activo", request);
+  }
+
+  getUsuarios(): Observable<ResponseApi> {
+    return this.http.get<ResponseApi>(this.urlApi + "Usuarios");
+  }
+
+  setUsuarioPassword(request: any): Observable<ResponseApi> {
+    return this.http.post<ResponseApi>(this.urlApi + "Usuarios", request);
+  }
+
+  getHorarios(request: any): Observable<ResponseApi> {
+    return this.http.post<ResponseApi>(this.urlApi + "Horarios", request);
   }
 }

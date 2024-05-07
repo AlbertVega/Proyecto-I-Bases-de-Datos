@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AdminService } from '../../../Services/admin.service';
 
 @Component({
   selector: 'app-gestion-activo',
@@ -14,7 +15,19 @@ export class GestionActivoComponent {
 
   editingRow: boolean[] = [];
 
-  constructor() {
+  constructor(
+    private _adminService: AdminService,
+  ) {
+    _adminService.getOperators().subscribe({
+      next: (data) => {
+        if (data.status) {
+          this.rows = data.value;
+        } else {
+          console.log("Error");
+        }
+      }
+    });
+
     for (let i = 0; i < this.rows.length; i++) {
       this.editingRow.push(false);
     }

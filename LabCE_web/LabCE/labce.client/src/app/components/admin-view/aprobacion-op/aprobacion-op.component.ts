@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ServicioOperadorService } from '../../../Services/servicio-operador.service';
+import { AdminService } from '../../../Services/admin.service';
 
 @Component({
   selector: 'app-aprobacion-op',
@@ -16,9 +16,9 @@ export class AprobacionOpComponent {
   editingRow: boolean[] = [];
 
   constructor(
-    private _operatorService: ServicioOperadorService
+    private _adminService: AdminService,
   ) {
-    _operatorService.getOperators().subscribe({
+    _adminService.getOperators().subscribe({
       next: (data) => {
         if (data.status) {
           this.rows = data.value;
@@ -27,10 +27,10 @@ export class AprobacionOpComponent {
         }      
       }
     });
+
     for (let i = 0; i < this.rows.length; i++) {
       this.editingRow.push(false);
     }
-
   }
 
   addRow() {
