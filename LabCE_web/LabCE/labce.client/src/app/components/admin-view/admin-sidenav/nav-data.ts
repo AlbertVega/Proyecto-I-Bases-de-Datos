@@ -25,6 +25,12 @@ export const navbarData = [
     label: 'Restablecimiento de contraseña',
     icon: 'fal fa-key',
     routeLink: 'rst-pwd'
+  },
+
+  {
+    routeLink: '',
+    icon: 'fa fa-sign-out-alt',
+    label: 'Cerrar Sesión'
   }
 
 ]

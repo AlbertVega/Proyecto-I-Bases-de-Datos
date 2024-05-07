@@ -23,6 +23,11 @@ export const navbarData = [
         routeLink: 'reportes',
         icon: 'fal fa-file-alt',
         label: 'Reportes'
+    },
+    {
+        routeLink: '',
+        icon: 'fa fa-sign-out-alt',
+        label: 'Cerrar Sesión'
     }
 
 ]
