@@ -25,7 +25,7 @@ export class AdminLoginComponent {
     this._adminService.login(request).subscribe({
       next: (data) => {
         if (data.status) {
-          console.log("Login Success");
+          console.log(data.status);
         } else {
           console.log("Error Login");
         }

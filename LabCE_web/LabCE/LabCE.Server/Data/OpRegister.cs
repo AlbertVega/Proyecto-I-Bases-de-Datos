@@ -17,7 +17,7 @@ namespace LabCE.Server.Data
         {
             try
             {
-                byte[] pw = PWEncryption.MD5Hashing(op.op_password);
+                byte[] pw = PWEncryption.SHA256Encoding(op.op_password);
 
                 operador.nombre = op.nombre;
                 operador.apellido1 = op.apellido1;

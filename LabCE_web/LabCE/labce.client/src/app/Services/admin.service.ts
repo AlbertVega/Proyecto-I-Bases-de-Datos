@@ -9,7 +9,7 @@ import { ResponseApi } from '../Interfaces/response-api';
 })
 export class AdminService {
 
-  private urlApi: string = "https://localhost:5000/api/OpRegister";
+  private urlApi: string = "https://localhost:5000/api/AdminLogin";
 
   constructor(private http: HttpClient) { }
 
