@@ -6,13 +6,20 @@ namespace LabCE.Server.Data
     public class OpRegister
     {
         private readonly LabCE_DB_Context _dbContext;
-        private OPERADOR operador = new OPERADOR(); 
-
+        private OPERADOR operador = new OPERADOR();
+        /*
+         * Constructor de la clase OpRegister
+         */
         public OpRegister(LabCE_DB_Context context)
         {
             _dbContext = context;
         }
-
+        /*
+         * StoreRegisterDataAsync
+         * Entradas : OPERADOR_DTO op
+         * Salidas: bool
+         * Este metodo se encarga de almacenar la informacion de un operador en la base de datos
+         */
         public async Task<bool> StoreRegisterDataAsync(OPERADOR_DTO op)
         {
             try

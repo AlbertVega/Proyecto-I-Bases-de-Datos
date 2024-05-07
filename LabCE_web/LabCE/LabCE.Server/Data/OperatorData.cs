@@ -26,12 +26,19 @@ public class OperatorData
     {
         private readonly LabCE_DB_Context _dbContext;
         private OPERADOR operador = new OPERADOR();
-
+        /*
+         * Constructor de la clase OperatorData
+         */
         public OperatorData(LabCE_DB_Context context)
         {
             _dbContext = context;
         }
-
+        /*
+         * GetOperators
+         * Entradas : Ninguna
+         * Salidas: List<OPERATORINFO>
+         * Este metodo se encarga de obtener la informacion de los operadores que no han sido aprobados
+         */
         public async Task<List<OPERATORINFO>> GetOperators()
         {
             try
@@ -57,7 +64,12 @@ public class OperatorData
                 return null;
             }
         }
-
+        /*
+         * SetOperator
+         * Entradas : OperatorAproved op
+         * Salidas: bool
+         * Este metodo se encarga de aprobar o rechazar a un operador
+         */
         public async Task<bool> SetOperator(OperatorAproved op)
         {
             try
