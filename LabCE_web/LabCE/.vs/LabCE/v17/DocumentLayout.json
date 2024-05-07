@@ -1,0 +1,46 @@
+{
+  "Version": 1,
+<<<<<<< Updated upstream
+  "WorkspaceRootPath": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\",
+  "Documents": [],
+=======
+  "WorkspaceRootPath": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|d:\\tec\\vii semestre\\bases de datos\\proyecto-i-bases-de-datos\\labce_web\\labce\\labce.client\\src\\app\\components\\admin-view\\admin-view.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A5797977-2633-4193-AFE9-562EFD615858}|labce.client\\labce.client.esproj|solutionrelative:labce.client\\src\\app\\components\\admin-view\\admin-view.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    }
+  ],
+>>>>>>> Stashed changes
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+<<<<<<< Updated upstream
+      "DocumentGroups": []
+=======
+      "DocumentGroups": [
+        {
+          "DockedWidth": 217,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "admin-view.component.ts",
+              "DocumentMoniker": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\components\\admin-view\\admin-view.component.ts",
+              "RelativeDocumentMoniker": "labce.client\\src\\app\\components\\admin-view\\admin-view.component.ts",
+              "ToolTip": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\labce.client\\src\\app\\components\\admin-view\\admin-view.component.ts",
+              "RelativeToolTip": "labce.client\\src\\app\\components\\admin-view\\admin-view.component.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-07T05:37:23.466Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+>>>>>>> Stashed changes
+    }
+  ]
+}

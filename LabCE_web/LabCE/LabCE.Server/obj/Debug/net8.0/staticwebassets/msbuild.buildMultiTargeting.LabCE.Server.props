@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\LabCE.Server.props" />
+</Project>
