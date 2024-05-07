@@ -12,13 +12,20 @@ namespace LabCE.Server.Controllers
     {
         private readonly LabCE_DB_Context _dbContext;
         private ProfessorData ProfessorData;
-
+        /* 
+         * Constructor de la clase
+         */
         public ProfessorController(LabCE_DB_Context context)
         {
             _dbContext = context;
             ProfessorData = new ProfessorData(context);
         }
-
+        /*
+         * GetProfessor
+         * Entradas: ninguna
+         * Salidas: respuesta de la petición
+         * Este metodo se encarga de obtener la lista de profesores de la base de datos y retorna una respuesta de la petición
+         *  */
         [HttpGet]
         public async Task<IActionResult> GetProfessor()
         {

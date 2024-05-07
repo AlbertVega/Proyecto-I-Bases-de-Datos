@@ -17,7 +17,12 @@ namespace LabCE.Server.Controllers
             _dbContext = context;
             ActivoData = new ActivoData(context);
         }
-
+        /*
+         * Funcion: GetActivo.
+         * Entradas: No.
+         * Salidas: Ok() un objeto con la lista de activos y un mensaje de error si es que ocurre.
+         * Este metodo se encarga de obtener la lista de activos de la base de datos y enviarla al cliente.
+         */
         [HttpGet]
         public async Task<IActionResult> GetActivo()
         {

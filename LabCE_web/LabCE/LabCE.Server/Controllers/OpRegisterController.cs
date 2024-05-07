@@ -11,13 +11,20 @@ namespace LabCE.Server.Controllers
     {
         private readonly LabCE_DB_Context _dbContext;
         private OpRegister OpRegister;
-
+        /* 
+         * Constructor de la clase
+         */
         public OpRegisterController(LabCE_DB_Context context)
         {
             _dbContext = context;
             OpRegister = new OpRegister(context);
         }
-
+        /*
+         * registroOP
+         * Entradas: datos de un operador
+         * Salidas: respuesta de la petición
+         * Este metodo se encarga de registrar un operador en la base de datos y retorna una respuesta de la petición
+         */
         [HttpPost]
         public async Task<IActionResult> registroOP([FromBody]OPERADOR_DTO data)
         {
@@ -28,7 +35,6 @@ namespace LabCE.Server.Controllers
                 response.status = true;
                 response.value = data;
                 await OpRegister.StoreRegisterDataAsync(data);
-                Console.WriteLine(data.nombre);
             } 
             catch (Exception ex)
             {
