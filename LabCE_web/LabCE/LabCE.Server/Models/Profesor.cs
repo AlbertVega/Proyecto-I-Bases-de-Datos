@@ -10,5 +10,6 @@
         public required byte[] p_password { get; set; }
         public required int cedula { get; set; }
         public required DateTime fecha_nacimiento { get; set; }
+        public ACTIVO? ACTIVO { get; set; }
     }
 }
