@@ -22,7 +22,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: #f0f1f3;
+  background: #ffffff;
   padding: 50px;
 
   .form-name, .form-fname, .form-email, .form-lname {
