@@ -17,7 +17,7 @@ export const navbarData = [
     routeLink: 'gestion-prof'
   },
   {
-    label: 'Aprobación de operaciones',
+    label: 'Aprobación de operadores',
     icon: 'fal fa-user-plus',
     routeLink: 'aprobacion-op'
   },

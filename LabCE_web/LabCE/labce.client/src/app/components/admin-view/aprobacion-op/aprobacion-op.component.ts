@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { AdminService } from '../../../Services/admin.service';
+import { OpAproved } from '../../../Interfaces/op-aproved';
 
 @Component({
   selector: 'app-aprobacion-op',
@@ -51,7 +52,20 @@ export class AprobacionOpComponent {
     this.editingRow.splice(index, 1);
   }
 
-  getOperators() {
+  onSetOperators(index: number) {
+    const request: OpAproved = {
+      cedula: this.rows[index].cedula,
+      aproved: true
+    }
 
+    this._adminService.setOperators(request).subscribe({
+      next: (data) => {
+        if (data.status) {
+          this.deleteRow(index);
+        } else {
+          console.log("Error");
+        }
+      }
+    });
   }
 }

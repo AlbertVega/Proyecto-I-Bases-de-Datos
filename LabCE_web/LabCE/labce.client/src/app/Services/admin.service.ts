@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 import { Login } from '../Interfaces/login';
 import { Observable } from 'rxjs';
 import { ResponseApi } from '../Interfaces/response-api';
+import { OpAproved } from '../Interfaces/op-aproved';
 
 @Injectable({
   providedIn: 'root'
@@ -21,7 +22,7 @@ export class AdminService {
     return this.http.get<ResponseApi>(this.urlApi + "Operator");
   }
 
-  setOperators(request: any): Observable<ResponseApi> {
+  setOperators(request: OpAproved): Observable<ResponseApi> {
     return this.http.post<ResponseApi>(this.urlApi + "Operator", request);
   }
 
@@ -33,12 +34,12 @@ export class AdminService {
     return this.http.post<ResponseApi>(this.urlApi + "Activo", request);
   }
 
-  getUsuarios(): Observable<ResponseApi> {
-    return this.http.get<ResponseApi>(this.urlApi + "Usuarios");
+  getProfesor(): Observable<ResponseApi> {
+    return this.http.get<ResponseApi>(this.urlApi + "Professor");
   }
 
-  setUsuarioPassword(request: any): Observable<ResponseApi> {
-    return this.http.post<ResponseApi>(this.urlApi + "Usuarios", request);
+  setProfesorPassword(request: any): Observable<ResponseApi> {
+    return this.http.post<ResponseApi>(this.urlApi + "Professor", request);
   }
 
   getHorarios(request: any): Observable<ResponseApi> {

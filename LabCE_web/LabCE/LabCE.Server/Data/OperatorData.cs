@@ -1,4 +1,5 @@
 ﻿using LabCE.Server.Models;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 
 namespace LabCE.Server.Data
@@ -13,6 +14,12 @@ namespace LabCE.Server.Data
         public DateOnly fecha_nacimiento { get; set; }
         public string email { get; set; }
         public int edad { get; set; }
+    }
+
+    public class OperatorAproved
+    {
+        public int cedula { get; set; }
+        public bool aprobado { get; set; }
     }
     
 public class OperatorData
@@ -48,6 +55,29 @@ public class OperatorData
             {
                 Console.WriteLine(ex.ToString());
                 return null;
+            }
+        }
+
+        public async Task<bool> SetOperator(OperatorAproved op)
+        {
+            try
+            {
+                var operatorToUpdate = _dbContext.OPERADOR.First(o => o.cedula == op.cedula);
+                if (operatorToUpdate != null)
+                {
+                    operatorToUpdate.aprobado = op.aprobado;
+                    await _dbContext.SaveChangesAsync();
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                return false;
             }
         }
     }

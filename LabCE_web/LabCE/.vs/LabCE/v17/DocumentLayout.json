@@ -1,6 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto\\Proyecto-I-Bases-de-Datos\\LabCE_web\\LabCE\\",
+<<<<<<< Updated upstream
   "Documents": [
     {
 <<<<<<< Updated upstream
@@ -44,10 +45,14 @@
 >>>>>>> Stashed changes
     }
   ],
+=======
+  "Documents": [],
+>>>>>>> Stashed changes
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
+<<<<<<< Updated upstream
       "DocumentGroups": [
         {
           "DockedWidth": 200,
@@ -180,6 +185,9 @@
           ]
         }
       ]
+=======
+      "DocumentGroups": []
+>>>>>>> Stashed changes
     }
   ]
 }

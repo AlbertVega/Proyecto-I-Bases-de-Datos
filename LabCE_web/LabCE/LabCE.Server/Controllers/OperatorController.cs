@@ -36,5 +36,23 @@ namespace LabCE.Server.Controllers
             }
             return Ok(response);
         }
+
+        [HttpPost]
+        public async Task<IActionResult> AproveOperator([FromBody]OperatorAproved data) 
+        {
+            var response = new ResponseApi<OperatorAproved>();
+
+            try
+            {
+                await OperatorData.SetOperator(data);
+                response.status = true;
+            }
+            catch (Exception ex)
+            {
+                response.status = false;
+                response.message = ex.Message;
+            }
+            return Ok(response);
+        }
     }
 }

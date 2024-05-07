@@ -18,15 +18,15 @@ export class RstPwdComponent {
   constructor(
     private _adminService: AdminService,
   ) {
-    _adminService.getUsuarios().subscribe({
-      next: (data) => {
-        if (data.status) {
-          this.rows = data.value;
-        } else {
-          console.log("Error");
-        }
-      }
-    });
+    //_adminService.getUsuarios().subscribe({
+    //  next: (data) => {
+    //    if (data.status) {
+    //      this.rows = data.value;
+    //    } else {
+    //      console.log("Error");
+    //    }
+    //  }
+    //});
 
     for (let i = 0; i < this.rows.length; i++) {
       this.editingRow.push(false);
