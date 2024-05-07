@@ -18,6 +18,7 @@ namespace LabCE.Server.Data
             try
             {
                 byte[] pw = PWEncryption.SHA256Encoding(op.op_password);
+                DateOnly fecha_nacimiento = DateOnly.FromDateTime(op.nacimiento);
 
                 operador.nombre = op.nombre;
                 operador.apellido1 = op.apellido1;
@@ -26,7 +27,7 @@ namespace LabCE.Server.Data
                 operador.aprobado = op.aprobado;
                 operador.email = op.email;
                 operador.cedula = op.cedula;
-                operador.fecha_nacimiento = op.nacimiento;
+                operador.fecha_nacimiento = fecha_nacimiento;
                 operador.op_password = pw;
 
                 _dbContext.OPERADOR.Add(operador);

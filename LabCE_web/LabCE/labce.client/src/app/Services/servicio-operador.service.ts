@@ -9,12 +9,16 @@ import { Observable } from 'rxjs';
 })
 export class ServicioOperadorService {
 
-  private urlApi: string = "https://localhost:5000/api/OpRegister";
+  private urlApi: string = "https://localhost:5000/api/";
 
   constructor(private http: HttpClient) { }
 
   register(request: Registro): Observable<ResponseApi> {
 
-    return this.http.post<ResponseApi>(this.urlApi, request);
+    return this.http.post<ResponseApi>(this.urlApi + "OpRegister", request);
+  }
+
+  getOperators(): Observable<ResponseApi> {
+    return this.http.get<ResponseApi>(this.urlApi + "Operator");
   }
 }

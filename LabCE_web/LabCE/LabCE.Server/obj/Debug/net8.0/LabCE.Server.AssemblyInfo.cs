@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LabCE.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb1d755c8ad56ff8e60a16bccd41b8910445aa24")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d03fe51726a774a9d03034591cd573effd247ab")]
 [assembly: System.Reflection.AssemblyProductAttribute("LabCE.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LabCE.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

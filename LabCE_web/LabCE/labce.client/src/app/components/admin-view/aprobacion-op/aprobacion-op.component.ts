@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ServicioOperadorService } from '../../../Services/servicio-operador.service';
 
 @Component({
   selector: 'app-aprobacion-op',
@@ -7,21 +8,33 @@ import { Component } from '@angular/core';
 })
 export class AprobacionOpComponent {
   rows = [
-    { cedula: '123456789', carnet: '123124', nombre: 'Juan', apellido1: 'Perez', apellido2: 'Gonzalez', edad: '25', fechaNacimiento: '01/01/1995', correo: 'jpg@gmail.com' },
-    { cedula: '987654321', carnet: '123124', nombre: 'Maria', apellido1: 'Gonzalez', apellido2: 'Perez', edad: '20', fechaNacimiento: '01/01/2000', correo: 'aAD!@gmail.com' },
-    { cedula: '123456789', carnet: '123124', nombre: 'Juan', apellido1: 'Perez', apellido2: 'Gonzalez', edad: '25', fechaNacimiento: '01/01/1995', correo: 'ghh@gmail.com' },
+    { cedula: '123456789', carnet: '123124', nombre: 'Juan', apellido1: 'Perez', apellido2: 'Gonzalez', edad: '25', fecha_nacimiento: '01/01/1995', email: 'jpg@gmail.com' },
+    { cedula: '987654321', carnet: '123124', nombre: 'Maria', apellido1: 'Gonzalez', apellido2: 'Perez', edad: '20', fecha_nacimiento: '01/01/2000', email: 'aAD!@gmail.com' },
+    { cedula: '123456789', carnet: '123124', nombre: 'Juan', apellido1: 'Perez', apellido2: 'Gonzalez', edad: '25', fecha_nacimiento: '01/01/1995', email: 'ghh@gmail.com' },
   ];
 
   editingRow: boolean[] = [];
 
-  constructor() {
+  constructor(
+    private _operatorService: ServicioOperadorService
+  ) {
+    _operatorService.getOperators().subscribe({
+      next: (data) => {
+        if (data.status) {
+          this.rows = data.value;
+        } else {
+          console.log("Error");
+        }      
+      }
+    });
     for (let i = 0; i < this.rows.length; i++) {
       this.editingRow.push(false);
     }
+
   }
 
   addRow() {
-    this.rows.push({ cedula: '', carnet: '', nombre: '', apellido1: '', apellido2: '', edad: '', fechaNacimiento: '', correo: '' });
+    this.rows.push({ cedula: '', carnet: '', nombre: '', apellido1: '', apellido2: '', edad: '', fecha_nacimiento: '', email: '' });
     this.editingRow.push(true);
   }
 
@@ -36,5 +49,9 @@ export class AprobacionOpComponent {
   deleteRow(index: number) {
     this.rows.splice(index, 1);
     this.editingRow.splice(index, 1);
+  }
+
+  getOperators() {
+
   }
 }
