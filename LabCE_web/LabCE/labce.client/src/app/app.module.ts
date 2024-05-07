@@ -2,8 +2,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
-import { ReactiveFormsModule } from '@angular/forms'
-
+import { ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AdminLoginComponent } from './components/admin-login/admin-login.component';
@@ -25,6 +24,12 @@ import { ReservaLabComponent } from './components/operator-view/reserva-lab/rese
 import { RegDevolucionComponent } from './components/operator-view/reg-devolucion/reg-devolucion.component';
 import { ReportesComponent } from './components/operator-view/reportes/reportes.component';
 import { UnsubscribeComponent } from './components/operator-register/unsubscribe/unsubscribe.component';
+import { ProfessorLoginComponent } from './components/professor-login/professor-login.component';
+import { ProfessorViewComponent } from './components/professor-view/professor-view.component';
+import { AprobarPrestamoComponent } from './components/professor-view/aprobar-prestamo/aprobar-prestamo.component';
+import { ReservarLabProfessorComponent } from './components/professor-view/reservar-lab-professor/reservar-lab-professor.component';
+import { ProfSidenavComponent } from './components/professor-view/prof-sidenav/prof-sidenav.component';
+import { ProfPrestamoTableComponent } from './components/professor-view/aprobar-prestamo/prof-prestamo-table/prof-prestamo-table.component';
 
 @NgModule({
   declarations: [
@@ -48,12 +53,18 @@ import { UnsubscribeComponent } from './components/operator-register/unsubscribe
     RegDevolucionComponent,
     ReportesComponent,
     UnsubscribeComponent,
+    ProfessorLoginComponent,
+    ProfessorViewComponent,
+    AprobarPrestamoComponent,
+    ReservarLabProfessorComponent,
+    ProfSidenavComponent,
+    ProfPrestamoTableComponent,
   ],
   imports: [
     BrowserModule, HttpClientModule,
     AppRoutingModule, ReactiveFormsModule, FormsModule
   ],
   providers: [],
-  bootstrap: [AppComponent, AdminLoginComponent, OperatorLoginComponent],
+  bootstrap: [AppComponent, AdminLoginComponent, OperatorLoginComponent, ProfessorLoginComponent]
 })
 export class AppModule { }
