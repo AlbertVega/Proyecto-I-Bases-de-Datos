@@ -8,9 +8,9 @@ import { AdminService } from '../../../Services/admin.service';
 })
 export class GestionActivoComponent {
   rows = [
-    { placa: 1234, tipo: 'Computadora', marca: 'HP', fechaCompra: '2021-01-01', prestamoRequiereAprobacion: 'No', labDisponible: 'F2-08' },
-    { placa: 5678, tipo: 'Computadora', marca: 'HP', fechaCompra: '2021-01-01', prestamoRequiereAprobacion: 'No', labDisponible: 'F2-08' },
-    { placa: 9101, tipo: 'Computadora', marca: 'HP', fechaCompra: '2021-01-01', prestamoRequiereAprobacion: 'No', labDisponible: 'F2-08' }
+    { placa: 1234, tipo: 'Computadora', marca: 'HP', fecha_compra: '2021-01-01', prestamoRequiereAprobacion: 'No', id_lab_fk: 'F2-08' },
+    { placa: 5678, tipo: 'Computadora', marca: 'HP', fecha_compra: '2021-01-01', prestamoRequiereAprobacion: 'No', id_lab_fk: 'F2-08' },
+    { placa: 9101, tipo: 'Computadora', marca: 'HP', fecha_compra: '2021-01-01', prestamoRequiereAprobacion: 'No', id_lab_fk: 'F2-08' }
   ];
 
   editingRow: boolean[] = [];
@@ -18,7 +18,7 @@ export class GestionActivoComponent {
   constructor(
     private _adminService: AdminService,
   ) {
-    _adminService.getOperators().subscribe({
+    _adminService.getActivos().subscribe({
       next: (data) => {
         if (data.status) {
           this.rows = data.value;
@@ -34,7 +34,7 @@ export class GestionActivoComponent {
   }
 
   addRow() {
-    this.rows.push({ placa: 0, tipo: '', marca: '', fechaCompra: '', prestamoRequiereAprobacion: '', labDisponible: ''});
+    this.rows.push({ placa: 0, tipo: '', marca: '', fecha_compra: '', prestamoRequiereAprobacion: '', id_lab_fk: ''});
     this.editingRow.push(true);
   }
 
