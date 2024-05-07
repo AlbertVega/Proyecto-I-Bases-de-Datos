@@ -31,7 +31,8 @@ import { ReportesComponent } from './components/operator-view/reportes/reportes.
   ],
   imports: [
     BrowserModule, HttpClientModule,
-    AppRoutingModule, ReactiveFormsModule, FormsModule
+    AppRoutingModule, ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent, OperatorLoginComponent]
