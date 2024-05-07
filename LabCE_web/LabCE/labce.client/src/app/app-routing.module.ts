@@ -35,7 +35,6 @@ const routes: Routes = [
     ]
     
   },
-  { path: '', redirectTo: 'prof-login', pathMatch: 'full' }, 
   {
     path: 'op-register', component: OperatorRegisterComponent,
     children: [
