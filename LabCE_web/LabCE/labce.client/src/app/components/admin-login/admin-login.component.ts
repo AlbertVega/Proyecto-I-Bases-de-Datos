@@ -16,6 +16,12 @@ export class AdminLoginComponent {
     private _adminService: AdminService
   ) { }
 
+  /*
+   * onLogin
+   * Entradas: email y password del operador
+   * Salidas: respuesta de la petición
+   * Funcionamiento: se encarga de enviar la petición de login al servidor
+   */
   onLogin() {
     const request: Login = {
       email: this.email,

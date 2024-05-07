@@ -9,6 +9,8 @@ export class AdminBodyComponent {
   @Input() collapsed = false;
   @Input() screenWidth = 0;
 
+
+  // Función que se encarga de retornar la clase que se le asignará al body
   getBodyClass(): string {
     let styleClass = '';
     if (this.collapsed && this.screenWidth > 768) {
