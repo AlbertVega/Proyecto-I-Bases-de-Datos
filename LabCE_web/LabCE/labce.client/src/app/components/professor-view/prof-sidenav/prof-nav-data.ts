@@ -12,6 +12,11 @@ export const navbarData = [
     icon: 'fal fal fa-server',
     label: 'Reservar Laboratorio'
   },
+  {
+    routeLink: '',
+    icon: 'fal fa-key', // Aquí utilizo un icono de una llave
+    label: 'Cambiar Contraseña'
+ },
 
   {
     routeLink: '',
