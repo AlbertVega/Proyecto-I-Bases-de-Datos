@@ -15,6 +15,12 @@ export class GestionProfComponent {
 
   editingRow: boolean[] = [];
 
+  /*
+  * Constructor
+  * Entradas: servicio de admin
+  * Salidas: ninguna
+  * Funcionamiento: se encarga de obtener los profesores
+  */
   constructor(
     private _adminService: AdminService,
   ) {
@@ -33,19 +39,43 @@ export class GestionProfComponent {
     }
   }
 
+  /*
+   * AddRow
+   * Entradas: ninguna
+   * Salidas: ninguna
+   * Funcionamiento: agrega una fila a la tabla
+   */
   addRow() {
     this.rows.push({ cedula: '', nombre: '', apellido1: '', apellido2: '', edad: '', fecha_nacimiento: '', email: '' });
     this.editingRow.push(true);
   }
 
+  /*
+  * EditRow
+  * Entradas: index de la fila
+  * Salidas: ninguna
+  * Funcionamiento: habilita la edición de la fila
+  */
   editRow(index: number) {
     this.editingRow[index] = true;
   }
 
+  /*
+  * SaveRow
+  * Entradas: index de la fila
+  * Salidas: ninguna
+  * Funcionamiento: deshabilita la edición de la fila
+  */
   saveRow(index: number) {
     this.editingRow[index] = false;
   }
 
+  /*
+  * DeleteRow
+  * Entradas: index de la fila
+  * Salidas: ninguna
+  * Funcionamiento: elimina la fila de la tabla
+  */
   deleteRow(index: number) {
     this.rows.splice(index, 1);
     this.editingRow.splice(index, 1);

@@ -15,25 +15,54 @@ export class GestionLabComponent {
 
   editingRow: boolean[] = [];
 
+  /*
+  * Constructor
+  * Entradas: ninguna
+  * Salidas: ninguna
+  * Funcionamiento: inicializa las filas de la tabla
+  */
   constructor() {
     for (let i = 0; i < this.rows.length; i++) {
       this.editingRow.push(false);
     }
   }
-
+  /*
+    * AddRow
+    * Entradas: ninguna
+    * Salidas: ninguna
+    * Funcionamiento: agrega una fila a la tabla
+    */
   addRow() {
     this.rows.push({ nombre: '', capacidadPersonas: '', capacidadComputadoras: '', facilidades: '' });
     this.editingRow.push(true);
   }
 
+  /*
+  * EditRow
+  * Entradas: index de la fila
+  * Salidas: ninguna
+  * Funcionamiento: habilita la edición de la fila
+  */
   editRow(index: number) {
     this.editingRow[index] = true;
   }
 
+  /*
+  * SaveRow
+  * Entradas: index de la fila
+  * Salidas: ninguna
+  * Funcionamiento: deshabilita la edición de la fila
+  */
   saveRow(index: number) {
     this.editingRow[index] = false;
   }
 
+  /*
+  * DeleteRow
+  * Entradas: index de la fila
+  * Salidas: ninguna
+  * Funcionamiento: elimina la fila de la tabla
+  */
   deleteRow(index: number) {
     this.rows.splice(index, 1);
     this.editingRow.splice(index, 1);
@@ -54,24 +83,53 @@ export class GestionLabComponent {
     { day: 'Viernes', startHour: '12:30', endHour: '18:50', description: 'Datos 10', professor: 'Profesor 10' }
   ];
 
+  /*
+  * hasReservationsForDay
+  * Entradas: día de la semana
+  * Salidas: booleano
+  * Funcionamiento: verifica si hay reservaciones para el día
+  */
   hasReservationsForDayHour(day: string, hour: string) {
     return this.reservations.some(reservation => reservation.day === day && reservation.startHour === hour);
   }
 
+  /*
+  * getReservationForDay
+  * Entradas: día de la semana
+  * Salidas: reservaciones
+  * Funcionamiento: obtiene las reservaciones para el día
+  * */
   getReservationForDayHour(day: string, hour: string) {
     return this.reservations.filter(reservation => reservation.day === day && reservation.startHour === hour);
   }
 
-  //check if the hour is between the start and end hour of a reservation
+  /*
+  * hasReservationAtHour
+  * Entradas: día de la semana y hora
+  * Salidas: booleano
+  * Funcionamiento: verifica si hay reservaciones para la hora
+  * */
   hasReservationAtHour(day: string, hour: string) {
     return this.reservations.some(reservation => reservation.day === day && this.hourToMinutes(hour) >= this.hourToMinutes(reservation.startHour) && this.hourToMinutes(hour) <= this.hourToMinutes(reservation.endHour));
   }
 
+  /*
+  * getReservationAtHour
+  * Entradas: día de la semana y hora
+  * Salidas: reservaciones
+  * Funcionamiento: obtiene las reservaciones para la hora
+  * */
   hourToMinutes(hour: string) {
     const parts = hour.split(':');
     return parseInt(parts[0]) * 60 + parseInt(parts[1]);
   }
 
+  /*
+  * getReservationAtHour
+  * Entradas: día de la semana y hora
+  * Salidas: reservaciones
+  * Funcionamiento: obtiene las reservaciones para la hora
+  * */
   calculateHours(startHour: string, endHour: string) {
     const start = startHour.split(':');
     const end = endHour.split(':');
@@ -82,6 +140,12 @@ export class GestionLabComponent {
     return roundedHours;
   }
 
+  /*
+  * calculateDayOfWeek
+  * Entradas: fecha
+  * Salidas: día de la semana
+  * Funcionamiento: calcula el día de la semana
+  * */
   calculateDayOfWeek(date: string) {
     const parts = date.split('/');
     const day = parseInt(parts[0]);
@@ -91,6 +155,12 @@ export class GestionLabComponent {
     return dateObject.getDay();
   }
 
+  /*
+  * getWeeks
+  * Entradas: ninguna
+  * Salidas: semanas
+  * Funcionamiento: obtiene las semanas
+  * */
   getWeeks() {
     const currentDate = new Date();
     const weeks = [];

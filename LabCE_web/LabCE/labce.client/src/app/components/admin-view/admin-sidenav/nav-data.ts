@@ -26,6 +26,7 @@ export const navbarData = [
     icon: 'fal fa-key',
     routeLink: 'rst-pwd'
   },
+<<<<<<< Updated upstream
 
   {
     routeLink: '',
@@ -33,4 +34,11 @@ export const navbarData = [
     label: 'Cerrar Sesión'
   }
 
+=======
+  {
+    label: 'Logout',
+    icon: 'fal fa-sign-out',
+    routeLink: 'admin-login'
+  },
+>>>>>>> Stashed changes
 ]
