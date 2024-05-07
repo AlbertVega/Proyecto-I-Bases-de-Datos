@@ -24,7 +24,12 @@ namespace LabCE.Server.Data
         {
             _dbContext = context;
         }
-
+        /*
+         * GetProfessors
+         * Entradas : Ninguna
+         * Salidas: List<PROFESSORINFO>
+         * Este metodo se encarga de obtener la informacion de los profesores
+         */
         public async Task<List<PROFESSORINFO>> GetProfessors()
         {
             try

@@ -6,12 +6,19 @@ namespace LabCE.Server.Data
     {
         private readonly LabCE_DB_Context _dbContext;
         private ACTIVO activo = new ACTIVO();
-
+        /* 
+         * Constructor de la clase
+         */
         public ActivoData(LabCE_DB_Context context)
         {
             _dbContext = context;
         }
-
+        /*
+         * GetActivos
+         * Entradas: ninguna
+         * Salidas: lista de activos
+         * Este metodo se encarga de obtener la lista de activos de la base de datos y retorna una lista de activos
+         */
         public async Task<List<ACTIVO>> GetActivos()
         {
             try
