@@ -11,14 +11,12 @@ export class ProfPrestamoTableComponent {
     { nombre: 'Producto 2', tipo: 'Tipo 2', marca: 'Marca 2', cantidadHoras: 10, hora: '14:00' }
   ];
 
-
-
   AprobarSolicitud(index: number) {
-    console.log('Solicitud aprobada en la fila ' + index);
+    this.rows.splice(index, 1);
   }
 
   DenegarSolicitud(index: number) {
-    console.log('Solicitud denegada en la fila ' + index);
+    this.rows.splice(index, 1);
   }
 }
 

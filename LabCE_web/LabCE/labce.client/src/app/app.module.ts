@@ -19,9 +19,6 @@ import { ProfessorViewComponent } from './components/professor-view/professor-vi
 import { AprobarPrestamoComponent } from './components/professor-view/aprobar-prestamo/aprobar-prestamo.component';
 import { ReservarLabProfessorComponent } from './components/professor-view/reservar-lab-professor/reservar-lab-professor.component';
 import { ProfSidenavComponent } from './components/professor-view/prof-sidenav/prof-sidenav.component';
-import { ProfReservaLabComponent } from './components/professor-view/prof-reserva-lab/prof-reserva-lab.component';
-import { ProfReservarTableComponent } from './components/professor-view/prof-reserva-lab/prof-reservar-table/prof-reservar-table.component';
-import { ProfLabBookingComponent } from './components/professor-view/prof-reserva-lab/prof-lab-booking/prof-lab-booking.component';
 import { ProfPrestamoTableComponent } from './components/professor-view/aprobar-prestamo/prof-prestamo-table/prof-prestamo-table.component';
 
 @NgModule({
@@ -42,15 +39,12 @@ import { ProfPrestamoTableComponent } from './components/professor-view/aprobar-
     ReservarLabProfessorComponent,
     ProfSidenavComponent,
     ProfPrestamoTableComponent,
-    ProfReservaLabComponent,
-    ProfReservarTableComponent,
-    ProfLabBookingComponent,
   ],
   imports: [
     BrowserModule, HttpClientModule,
     AppRoutingModule, ReactiveFormsModule, FormsModule
   ],
   providers: [],
-  bootstrap: [AppComponent, ProfessorLoginComponent, OperatorLoginComponent, ProfLabBookingComponent]
+  bootstrap: [AppComponent, ProfessorLoginComponent, OperatorLoginComponent]
 })
 export class AppModule { }
