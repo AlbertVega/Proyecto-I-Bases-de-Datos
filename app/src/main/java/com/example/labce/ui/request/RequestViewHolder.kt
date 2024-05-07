@@ -9,7 +9,7 @@ import com.example.labce.R
 class RequestViewHolder (view: View): RecyclerView.ViewHolder(view) {
 
 
-    val request_pic = view.findViewById<ImageView>(R.id.lab_pic)
+    //val request_pic = view.findViewById<ImageView>(R.id.lab_pic)
     val lab_id = view.findViewById<TextView>(R.id.id_lab_txt)
     val requester_name = view.findViewById<TextView>(R.id.name_requester)
     val request_date = view.findViewById<TextView>(R.id.date_txt)
@@ -23,17 +23,11 @@ class RequestViewHolder (view: View): RecyclerView.ViewHolder(view) {
             itemView.visibility = View.VISIBLE // Mostrar la solicitud
             lab_id.text = prestamosModel.id_lab
             requester_name.text ="Nombre del solicitante: ${prestamosModel.name_request}"
-            request_date.text = "Fecha de inicio: ${prestamosModel.date}"
-            request_hour_cant.text = "Cantidad de horas: ${prestamosModel.cant_hour}"
-            request_hour_init.text = "Hora de inicio: ${prestamosModel.init_hour}"
+            request_date.text = "Fecha de retiro: ${prestamosModel.date}"
+            request_hour_cant.text = "Fecha de devolucion: ${prestamosModel.cant_hour}"
+            request_hour_init.text = "Activo: ${prestamosModel.date_back}"
 
-            if (prestamosModel.id_lab == "F4-07") {
-                request_pic.setImageResource(R.drawable.hachi)
-            } else if (prestamosModel.id_lab == "F4-08") {
-                request_pic.setImageResource(R.drawable.side_nav_bar)
-            } else {
-                request_pic.setImageResource(R.drawable.ic_launcher_background)
-            }
+
 
             if (prestamosModel.aprove == 0){
                 request_state.text = "Estado : Rechazado"

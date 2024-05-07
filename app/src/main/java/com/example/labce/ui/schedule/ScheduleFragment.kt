@@ -10,11 +10,14 @@ import android.widget.Button
 import android.widget.Toast
 import com.example.labce.R
 import android.widget.TableLayout
+import androidx.core.view.marginEnd
+import androidx.core.view.marginLeft as marginLeft
 
 
 class ScheduleFragment(var schedule: MutableList<MutableList<String>>) : Fragment() {
 
     private lateinit var tableLayout: TableLayout
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -43,11 +46,17 @@ class ScheduleFragment(var schedule: MutableList<MutableList<String>>) : Fragmen
             tvThursday.text = schedule[i][3]
             tvFriday.text = schedule[i][4]
 
-            if (schedule[i][0] == "Ocupado") tvMonday.setBackgroundColor(Color.RED)
-            if (schedule[i][1] == "Ocupado") tvTuesday.setBackgroundColor(Color.RED)
-            if (schedule[i][2] == "Ocupado") tvWednesday.setBackgroundColor(Color.RED)
-            if (schedule[i][3] == "Ocupado") tvThursday.setBackgroundColor(Color.RED)
-            if (schedule[i][4] == "Ocupado") tvFriday.setBackgroundColor(Color.RED)
+            /*if (schedule[i][0].length>=12) tvMonday.marginLeft+20
+            if (schedule[i][1].length>=12) tvTuesday.marginLeft+20
+            if (schedule[i][2].length>=12) tvWednesday.marginLeft+20
+            if (schedule[i][3].length>=12) tvThursday.marginLeft+20
+            if (schedule[i][4].length>=12) tvFriday.marginLeft+20*/
+
+            if (schedule[i][0] != "Disponible") tvMonday.setBackgroundColor(Color.RED)
+            if (schedule[i][1] != "Disponible") tvTuesday.setBackgroundColor(Color.RED)
+            if (schedule[i][2] != "Disponible") tvWednesday.setBackgroundColor(Color.RED)
+            if (schedule[i][3] != "Disponible") tvThursday.setBackgroundColor(Color.RED)
+            if (schedule[i][4] != "Disponible") tvFriday.setBackgroundColor(Color.RED)
 
             if (schedule[i][0] == "Solicitado") tvMonday.setBackgroundColor(Color.GRAY)
             if (schedule[i][1] == "Solicitado") tvTuesday.setBackgroundColor(Color.GRAY)
@@ -56,7 +65,7 @@ class ScheduleFragment(var schedule: MutableList<MutableList<String>>) : Fragmen
             if (schedule[i][4] == "Solicitado") tvFriday.setBackgroundColor(Color.GRAY)
 
             tvMonday.setOnClickListener {
-                if (schedule[i][0] == "Ocupado") {
+                if (schedule[i][0] != "Disponible") {
                     Toast.makeText(this.context, "Fecha ocupada.", Toast.LENGTH_SHORT).show()
                 }
                 else if (schedule[i][0] == "Disponible") {
@@ -67,7 +76,7 @@ class ScheduleFragment(var schedule: MutableList<MutableList<String>>) : Fragmen
             }
 
             tvTuesday.setOnClickListener {
-                if (schedule[i][1] == "Ocupado") {
+                if (schedule[i][1] != "Disponible") {
                     Toast.makeText(this.context, "Fecha ocupada.", Toast.LENGTH_SHORT).show()
                 }
                 else if (schedule[i][1] == "Disponible") {
@@ -78,7 +87,7 @@ class ScheduleFragment(var schedule: MutableList<MutableList<String>>) : Fragmen
             }
 
             tvWednesday.setOnClickListener {
-                if (schedule[i][2] == "Ocupado") {
+                if (schedule[i][2] != "Disponible") {
                     Toast.makeText(this.context, "Fecha ocupada.", Toast.LENGTH_SHORT).show()
                 }
                 else if (schedule[i][2] == "Disponible") {
@@ -89,7 +98,7 @@ class ScheduleFragment(var schedule: MutableList<MutableList<String>>) : Fragmen
             }
 
             tvThursday.setOnClickListener {
-                if (schedule[i][3] == "Ocupado") {
+                if (schedule[i][3] != "Disponible") {
                     Toast.makeText(this.context, "Fecha ocupada.", Toast.LENGTH_SHORT).show()
                 }
                 else if (schedule[i][3] == "Disponible") {
@@ -100,7 +109,7 @@ class ScheduleFragment(var schedule: MutableList<MutableList<String>>) : Fragmen
             }
 
             tvFriday.setOnClickListener {
-                if (schedule[i][4] == "Ocupado") {
+                if (schedule[i][4] != "Disponible") {
                     Toast.makeText(this.context, "Fecha ocupada.", Toast.LENGTH_SHORT).show()
                 }
                 else if (schedule[i][4] == "Disponible") {

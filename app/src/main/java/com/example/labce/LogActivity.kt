@@ -2,14 +2,12 @@ package com.example.labce
 
 import android.content.Intent
 import android.os.Bundle
-import android.widget.Button
-import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.labce.SQLiteHelper.ProfessorVerify
 import com.example.labce.SQLiteHelper.SQLiteHelper
+import com.example.labce.SQLiteHelper.SolicitudSQLiteHelper
 import com.example.labce.databinding.ActivityLogBinding
-import com.example.labce.databinding.FragmentScheduleBinding
 
 class LogActivity : AppCompatActivity() {
     //private lateinit var binding: ActivityLogBinding
@@ -25,7 +23,8 @@ class LogActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         val profesorDBhelper = SQLiteHelper(this)
-        val profesorVerify = ProfessorVerify(profesorDBhelper)
+        val solicitudDBhelper = SolicitudSQLiteHelper(this)
+
         //var logeado = false
         /*val Btn_log = findViewById<Button>(R.id.log_btn)
         val email =findViewById<TextView>(R.id.log_email)
@@ -35,8 +34,8 @@ class LogActivity : AppCompatActivity() {
         val pid = binding.logPersonalid.text
         val password = binding.logPwd.text
         var logged = MainActivity.GlobalProfesor.logeado
-        //profesorDBhelper.addData(301412951,"pamin","Ruiz","Tepeda","2/6/2001",false,"oambo@gmail.com","5555")
-        //Do with random data
+        //profesorDBhelper.addData(301412951,"pamin","Ruiz","Tepeda","2/6/2001",false,"oamin@gmail.com","5555")
+
 
 
 
@@ -47,6 +46,7 @@ class LogActivity : AppCompatActivity() {
             if(logged){
                 MainActivity.GlobalProfesor.cedula = pid.toString()
                 MainActivity.GlobalProfesor.email = email.toString()
+
                 email.clear()
                 pid.clear()
                 password.clear()

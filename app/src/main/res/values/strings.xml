@@ -17,7 +17,7 @@
 
     <string name="menu_home">Laboratorios</string>
     <string name="menu_gallery">Solicitudes de prestamo</string>
-    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_slideshow">Mi cuenta profesor</string>
     <string name="fecha_init">Fecha inicio:</string>
     <string name="aprobar">Aprobar</string>
     <string name="rechazar">Rechazar</string>
@@ -38,4 +38,5 @@
     <string name="cambio_de_contrase_a">Cambio de contraseña</string>
     <string name="cambiar_contrase_a">Cambiar contraseña</string>
     <string name="nueva_contrase_a">Nueva contraseña</string>
+    <string name="cerrar_sesi_n">Cerrar Sesión</string>
 </resources>

@@ -5,21 +5,26 @@ import android.content.ContentValues
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
+import java.text.SimpleDateFormat
+import java.util.Calendar
+import java.util.Date
+import java.util.Locale
 
-class SQLiteHelper(context: Context): SQLiteOpenHelper(context,"profesores.db",null,1) {
+class SQLiteHelper(context: Context) : SQLiteOpenHelper(context,"profesores.db",null,1) {
 
     override fun onCreate(db: SQLiteDatabase?) {
-        val ordenCreacion =  "CREATE TABLE profesores("+
-                "nombre NVARCHAR(50) NOT NULL,"+
-                 " apellido1 NVARCHAR(50) NOT NULL,"+
-                 " apellido2 NVARCHAR(50) NOT NULL,"+
-                " fecha_nacimiento DATE NOT NULL,"+
-                 "es_admin BIT,"+
-                 "email NVARCHAR(50) NOT NULL,"+
-                " p_password VARBINARY(128) NOT NULL,"+
-                 "cedula INT NOT NULL,"+
-                 "PRIMARY KEY (cedula))"
-        db!!.execSQL(ordenCreacion)
+        val ordenCreacionProfesores = "CREATE TABLE profesores(" +
+                "nombre NVARCHAR(50) NOT NULL," +
+                " apellido1 NVARCHAR(50) NOT NULL," +
+                " apellido2 NVARCHAR(50) NOT NULL," +
+                " fecha_nacimiento DATE NOT NULL," +
+                "es_admin BIT," +
+                "email NVARCHAR(50) NOT NULL," +
+                " p_password VARBINARY(128) NOT NULL," +
+                "cedula INT NOT NULL," +
+                "PRIMARY KEY (cedula))"
+        db!!.execSQL(ordenCreacionProfesores)
+
     }
 
     override fun onUpgrade(db: SQLiteDatabase?, oldVersion: Int, newVersion: Int) {
@@ -38,11 +43,11 @@ class SQLiteHelper(context: Context): SQLiteOpenHelper(context,"profesores.db",n
         datos.put("es_admin",es_admin)
         datos.put("email",email)
         datos.put("p_password",pwd)
-
         val db = this.writableDatabase
         db.insert("profesores",null,datos)
         db.close()
     }
+
 
     fun compareProfesorData(cedula:String,pwd:String,email: String): Boolean {
         val db = this.readableDatabase
@@ -54,13 +59,6 @@ class SQLiteHelper(context: Context): SQLiteOpenHelper(context,"profesores.db",n
                 val cedulaDB = cursor.getString(7)
                 val pwdDB = cursor.getString(6)
                 val emailDB = cursor.getString(5)
-
-                println("DB:"+cedulaDB)
-                println("DB:"+pwdDB)
-
-                println("Tx;"+cedulaDB)
-                println("Tx;"+pwdDB)
-
                 if(cedula == cedulaDB && pwd == pwdDB && email == emailDB){
                     cursor.close()
                     db.close()
@@ -71,7 +69,6 @@ class SQLiteHelper(context: Context): SQLiteOpenHelper(context,"profesores.db",n
         cursor.close()
         db.close()
         return false
-
     }
 
     fun changePassword(cedula: String, pwd: String, newpwd: String): Boolean {
@@ -111,40 +108,4 @@ class SQLiteHelper(context: Context): SQLiteOpenHelper(context,"profesores.db",n
     }
 
 
-    /* fun comparePwd(cedula:String,pwd:String): Boolean {
-         val db = this.readableDatabase
-         val cursor = db.rawQuery(
-             "SELECT * FROM profesores ",
-             null)
-         if(cursor.moveToFirst()){
-             do{
-                 val cedulaDB = cursor.getString(7)
-                 val pwdDB = cursor.getString(6)
-
-                 if(cedula == cedulaDB && pwd == pwdDB ){
-                     cursor.close()
-                     db.close()
-                     return true
-                 }
-             } while (cursor.moveToNext())
-         }
-         cursor.close()
-         db.close()
-         return false
-
-     }*/
-
-
-    /*fun changePassword(cedula: String, pwd: String, newpwd: String) {
-        val db = this.writableDatabase
-        if(comparePwd(cedula,pwd)){
-            val datos = ContentValues()
-            datos.put("p_password", newpwd)
-            db.update("profesores", datos, "cedula = ?", arrayOf(cedula))
-            db.close()
-        }else{
-            db.close()
-            throw IllegalArgumentException("Datos incorrectos")
-        }
-    }*/
 }

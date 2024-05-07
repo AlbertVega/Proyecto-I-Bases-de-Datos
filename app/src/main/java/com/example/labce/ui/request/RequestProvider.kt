@@ -8,7 +8,7 @@ class RequestProvider {
             //APROVE: 0 = RECHAZADO, 1 = APROBADO, 2 = PENDIENTE
             RequestRegister(
                 "0001",
-                "F4-05",
+                "Proyector",
                 "juan@gmail.com",
                 "Juan",
                 "10/5/2024",
@@ -20,7 +20,7 @@ class RequestProvider {
             ),
             RequestRegister(
                 "0002",
-                "F4-07",
+                "Pantalla",
                 "pedro@outlook.com",
                 "Pedro",
                 "15/5/2024",
@@ -32,7 +32,7 @@ class RequestProvider {
 
             RequestRegister(
                 "0003",
-                "F4-08",
+                "FPGA (de1-soc)",
                 "paco@estudiantec.com",
                 "Paco",
                 "22/5/2024",
